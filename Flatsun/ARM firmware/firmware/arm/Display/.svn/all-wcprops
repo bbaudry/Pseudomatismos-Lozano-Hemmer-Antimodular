@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/arm/Display
+END
+stm32f10x_it.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/proj/!svn/ver/536/Antimodular/FlatSun/firmware/arm/Display/stm32f10x_it.c
+END
+openocd.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/proj/!svn/ver/535/Antimodular/FlatSun/firmware/arm/Display/openocd.cfg
+END
+STM32F103R6_FLASH.ld
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/proj/!svn/ver/478/Antimodular/FlatSun/firmware/arm/Display/STM32F103R6_FLASH.ld
+END
+STM32F103R8_FLASH.ld
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/proj/!svn/ver/452/Antimodular/FlatSun/firmware/arm/Display/STM32F103R8_FLASH.ld
+END
+tester.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/536/Antimodular/FlatSun/firmware/arm/Display/tester.c
+END
+font.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/538/Antimodular/FlatSun/firmware/arm/Display/font.c
+END
+Packet.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/arm/Display/Packet.c
+END
+stm32f10x_it.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/proj/!svn/ver/536/Antimodular/FlatSun/firmware/arm/Display/stm32f10x_it.h
+END
+font.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/538/Antimodular/FlatSun/firmware/arm/Display/font.h
+END
+Packet.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/arm/Display/Packet.h
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/536/Antimodular/FlatSun/firmware/arm/Display/test.c
+END
+stm32f10x_conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/proj/!svn/ver/483/Antimodular/FlatSun/firmware/arm/Display/stm32f10x_conf.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/538/Antimodular/FlatSun/firmware/arm/Display/main.c
+END
+startup_stm32f10x_md.S
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/proj/!svn/ver/452/Antimodular/FlatSun/firmware/arm/Display/startup_stm32f10x_md.S
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/arm/Display/Makefile
+END

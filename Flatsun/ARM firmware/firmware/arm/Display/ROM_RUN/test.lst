@@ -1,0 +1,574 @@
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 4
+  11              		.eabi_attribute 18, 4
+  12              		.thumb
+  13              		.file	"test.c"
+  21              	.Ltext0:
+  22              		.section	.text.Buffercmp,"ax",%progbits
+  23              		.align	1
+  24              		.global	Buffercmp
+  25              		.thumb
+  26              		.thumb_func
+  28              	Buffercmp:
+  29              	.LFB29:
+  30              		.file 1 "test.c"
+   1:test.c        **** #include "stm32f10x.h"
+   2:test.c        **** #define SPI2_PORT                   GPIOB
+   3:test.c        **** #define SPI2_CLOCK_DIR               GPIO_Pin_11     /* Clock Direction */
+   4:test.c        **** #define SPI2_SCK                    GPIO_Pin_13
+   5:test.c        **** #define SPI2_MOSI                   GPIO_Pin_15
+   6:test.c        **** #define SPI2_NRE                    GPIO_Pin_0      /* ! Receiver Enable */
+   7:test.c        **** #define SPI2_TE                     GPIO_Pin_1      /* Termination Enable */
+   8:test.c        **** #define SPI2_DE                     GPIO_Pin_5      /* Driver Enable */
+   9:test.c        **** 
+  10:test.c        **** 
+  11:test.c        **** #define USE_STM3210E_EVAL
+  12:test.c        **** 
+  13:test.c        **** 
+  14:test.c        **** #define USARTy                   USART1
+  15:test.c        **** #define USARTy_GPIO              GPIOA
+  16:test.c        **** #define USARTy_CLK               RCC_APB2Periph_USART1
+  17:test.c        **** #define USARTy_GPIO_CLK          RCC_APB2Periph_GPIOA
+  18:test.c        **** #define USARTy_TxPin             GPIO_Pin_9
+  19:test.c        **** 
+  20:test.c        **** #define USARTz                   USART2
+  21:test.c        **** #define USARTz_GPIO              GPIOA
+  22:test.c        **** #define USARTz_CLK               RCC_APB1Periph_USART2
+  23:test.c        **** #define USARTz_GPIO_CLK          RCC_APB2Periph_GPIOA
+  24:test.c        **** #define USARTz_TxPin             GPIO_Pin_2
+  25:test.c        ****   
+  26:test.c        ****   
+  27:test.c        **** /* Private typedef -----------------------------------------------------------*/
+  28:test.c        **** typedef enum {FAILED = 0, PASSED = !FAILED} TestStatus;
+  29:test.c        **** 
+  30:test.c        **** /* Private define ------------------------------------------------------------*/
+  31:test.c        **** #define BufferSize  32
+  32:test.c        **** 
+  33:test.c        **** /* Private macro -------------------------------------------------------------*/
+  34:test.c        **** /* Private variables ---------------------------------------------------------*/
+  35:test.c        **** uint16_t SPI1_Buffer_Tx[BufferSize] = {0x0102, 0x0304, 0x0506, 0x0708, 0x090A, 0x0B0C,
+  36:test.c        ****     0x0D0E, 0x0F10, 0x1112, 0x1314, 0x1516, 0x1718,
+  37:test.c        ****     0x191A, 0x1B1C, 0x1D1E, 0x1F20, 0x2122, 0x2324,
+  38:test.c        ****     0x2526, 0x2728, 0x292A, 0x2B2C, 0x2D2E, 0x2F30,
+  39:test.c        ****     0x3132, 0x3334, 0x3536, 0x3738, 0x393A, 0x3B3C,
+  40:test.c        ****     0x3D3E, 0x3F40};
+  41:test.c        **** uint16_t SPI2_Buffer_Tx[BufferSize] = {0x5152, 0x5354, 0x5556, 0x5758, 0x595A, 0x5B5C,
+  42:test.c        ****     0x5D5E, 0x5F60, 0x6162, 0x6364, 0x6566, 0x6768,
+  43:test.c        ****     0x696A, 0x6B6C, 0x6D6E, 0x6F70, 0x7172, 0x7374,
+  44:test.c        ****     0x7576, 0x7778, 0x797A, 0x7B7C, 0x7D7E, 0x7F80,
+  45:test.c        ****     0x8182, 0x8384, 0x8586, 0x8788, 0x898A, 0x8B8C,
+  46:test.c        ****     0x8D8E, 0x8F90};
+  47:test.c        **** uint16_t SPI1_Buffer_Rx[BufferSize], SPI2_Buffer_Rx[BufferSize];
+  48:test.c        **** uint32_t TxIdx = 0, RxIdx = 0;
+  49:test.c        **** __IO uint16_t CRC1Value = 0, CRC2Value = 0;
+  50:test.c        **** volatile TestStatus TransferStatus1 = FAILED, TransferStatus2 = FAILED;
+  51:test.c        **** TestStatus Buffercmp(uint16_t* pBuffer1, uint16_t* pBuffer2, uint16_t BufferLength)
+  52:test.c        **** {
+  31              		.loc 1 52 0
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              	.LVL0:
+  35 0000 10B5     		push	{r4, lr}
+  36              	.LCFI0:
+  53:test.c        ****     while (BufferLength--)
+  37              		.loc 1 53 0
+  38 0002 07E0     		b	.L2
+  39              	.LVL1:
+  40              	.L4:
+  54:test.c        ****     {
+  55:test.c        ****         if (*pBuffer1 != *pBuffer2)
+  41              		.loc 1 55 0
+  42 0004 30F8024B 		ldrh	r4, [r0], #2
+  43 0008 31F8023B 		ldrh	r3, [r1], #2
+  44 000c 013A     		subs	r2, r2, #1
+  45 000e 9C42     		cmp	r4, r3
+  46 0010 92B2     		uxth	r2, r2
+  47 0012 03D1     		bne	.L5
+  48              	.L2:
+  53:test.c        ****     while (BufferLength--)
+  49              		.loc 1 53 0 discriminator 1
+  50 0014 002A     		cmp	r2, #0
+  51 0016 F5D1     		bne	.L4
+  56:test.c        ****         {
+  57:test.c        ****             return FAILED;
+  58:test.c        ****         }
+  59:test.c        **** 
+  60:test.c        ****         pBuffer1++;
+  61:test.c        ****         pBuffer2++;
+  62:test.c        ****     }
+  63:test.c        **** 
+  64:test.c        ****     return PASSED;
+  52              		.loc 1 64 0
+  53 0018 0120     		movs	r0, #1
+  54 001a 10BD     		pop	{r4, pc}
+  55              	.L5:
+  57:test.c        ****             return FAILED;
+  56              		.loc 1 57 0
+  57 001c 0020     		movs	r0, #0
+  65:test.c        **** }
+  58              		.loc 1 65 0
+  59 001e 10BD     		pop	{r4, pc}
+  60              	.LFE29:
+  62              		.section	.text.Test_SPI2,"ax",%progbits
+  63              		.align	1
+  64              		.global	Test_SPI2
+  65              		.thumb
+  66              		.thumb_func
+  68              	Test_SPI2:
+  69              	.LFB30:
+  66:test.c        **** 
+  67:test.c        **** void Test_SPI2()
+  68:test.c        **** {
+  70              		.loc 1 68 0
+  71              		@ args = 0, pretend = 0, frame = 24
+  72              		@ frame_needed = 0, uses_anonymous_args = 0
+  73 0000 10B5     		push	{r4, lr}
+  74              	.LCFI1:
+  75 0002 86B0     		sub	sp, sp, #24
+  76              	.LCFI2:
+  69:test.c        ****     SPI_InitTypeDef  SPI_InitStructure;
+  70:test.c        ****     USART_InitTypeDef USART_InitStructure;
+  71:test.c        ****     USART_ClockInitTypeDef USART_ClockInitStructure;
+  72:test.c        ****     volatile    int k;
+  73:test.c        ****     
+  74:test.c        ****     SystemInit();
+  77              		.loc 1 74 0
+  78 0004 FFF7FEFF 		bl	SystemInit
+  75:test.c        ****     
+  76:test.c        ****     /* PCLK2 = HCLK/1 */
+  77:test.c        ****     RCC_PCLK2Config(RCC_HCLK_Div1);
+  79              		.loc 1 77 0
+  80 0008 0020     		movs	r0, #0
+  81 000a FFF7FEFF 		bl	RCC_PCLK2Config
+  78:test.c        **** 
+  79:test.c        ****     /* Enable peripheral clocks --------------------------------------------------*/
+  80:test.c        ****     /* GPIOA, GPIOB and SPI1 clock enable */
+  81:test.c        ****     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB | RCC_APB2Periph_GPIOC, ENAB
+  82              		.loc 1 81 0
+  83 000e 1C20     		movs	r0, #28
+  84 0010 0121     		movs	r1, #1
+  85 0012 FFF7FEFF 		bl	RCC_APB2PeriphClockCmd
+  82:test.c        **** 
+  83:test.c        ****     /* Enable GPIO clock */
+  84:test.c        ****     RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
+  86              		.loc 1 84 0
+  87 0016 0120     		movs	r0, #1
+  88 0018 0146     		mov	r1, r0
+  89 001a FFF7FEFF 		bl	RCC_APB2PeriphClockCmd
+  85:test.c        **** 
+  86:test.c        ****     /* Enable USARTy Clock */
+  87:test.c        ****     RCC_APB2PeriphClockCmd(USARTy_CLK, ENABLE); 
+  90              		.loc 1 87 0
+  91 001e 4FF48040 		mov	r0, #16384
+  92 0022 0121     		movs	r1, #1
+  93 0024 FFF7FEFF 		bl	RCC_APB2PeriphClockCmd
+  88:test.c        ****     
+  89:test.c        ****     /* Enable USARTz Clock */
+  90:test.c        ****     RCC_APB1PeriphClockCmd(USARTz_CLK, ENABLE);
+  94              		.loc 1 90 0
+  95 0028 4FF40030 		mov	r0, #131072
+  96 002c 0121     		movs	r1, #1
+  97 002e FFF7FEFF 		bl	RCC_APB1PeriphClockCmd
+  91:test.c        ****         
+  92:test.c        **** #if 0    
+  93:test.c        ****     RCC_APB2PeriphClockCmd(RCC_APB2Periph_SPI1, ENABLE);
+  94:test.c        ****     /* SPI2 Periph clock enable */
+  95:test.c        ****     RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2, ENABLE);
+  96:test.c        **** #endif
+  97:test.c        **** 
+  98:test.c        ****     GPIO_InitTypeDef GPIO_InitStructure;
+  99:test.c        **** 
+ 100:test.c        ****     // GPIO_InitStructure.GPIO_Pin = GPIO_Pin_All;
+ 101:test.c        ****     // GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+ 102:test.c        ****     // GPIO_Init(GPIOB, &GPIO_InitStructure);
+ 103:test.c        **** 
+ 104:test.c        ****     GPIO_InitStructure.GPIO_Pin   = GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12;
+  98              		.loc 1 104 0
+  99 0032 4FF4E053 		mov	r3, #7168	@ movhi
+ 105:test.c        ****     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 100              		.loc 1 105 0
+ 101 0036 0324     		movs	r4, #3
+ 104:test.c        ****     GPIO_InitStructure.GPIO_Pin   = GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12;
+ 102              		.loc 1 104 0
+ 103 0038 ADF81430 		strh	r3, [sp, #20]	@ movhi
+ 106:test.c        ****     GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_Out_PP;
+ 107:test.c        ****     GPIO_Init(GPIOC, &GPIO_InitStructure);
+ 104              		.loc 1 107 0
+ 105 003c 2748     		ldr	r0, .L12
+ 106:test.c        ****     GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_Out_PP;
+ 106              		.loc 1 106 0
+ 107 003e 1023     		movs	r3, #16
+ 108              		.loc 1 107 0
+ 109 0040 05A9     		add	r1, sp, #20
+ 105:test.c        ****     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 110              		.loc 1 105 0
+ 111 0042 8DF81640 		strb	r4, [sp, #22]
+ 106:test.c        ****     GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_Out_PP;
+ 112              		.loc 1 106 0
+ 113 0046 8DF81730 		strb	r3, [sp, #23]
+ 114              		.loc 1 107 0
+ 115 004a FFF7FEFF 		bl	GPIO_Init
+ 108:test.c        ****     
+ 109:test.c        **** #if 0
+ 110:test.c        ****     GPIO_InitStructure.GPIO_Pin   = SPI2_NRE | SPI2_DE | SPI2_TE | SPI2_CLOCK_DIR;
+ 111:test.c        ****     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 112:test.c        ****     GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_Out_PP;
+ 113:test.c        ****     GPIO_Init(SPI2_PORT, &GPIO_InitStructure);
+ 114:test.c        **** 
+ 115:test.c        ****     SPI2_PORT->ODR &= ~SPI2_NRE;       // RE
+ 116:test.c        ****     SPI2_PORT->ODR &= ~SPI2_DE;        // DE
+ 117:test.c        ****     SPI2_PORT->ODR |=  SPI2_TE;        // TE
+ 118:test.c        ****     SPI2_PORT->ODR &= ~SPI2_CLOCK_DIR;
+ 119:test.c        **** 
+ 120:test.c        ****     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8 ;
+ 121:test.c        ****     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 122:test.c        ****     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+ 123:test.c        ****     GPIO_Init(GPIOA, &GPIO_InitStructure);
+ 124:test.c        ****     
+ 125:test.c        ****     
+ 126:test.c        ****   /* Configure SPI1 pins: SCK, MISO and MOSI ---------------------------------*/
+ 127:test.c        ****   /* Confugure SCK and MOSI pins as Alternate Function Push Pull */
+ 128:test.c        ****   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5 | GPIO_Pin_7;
+ 129:test.c        ****   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 130:test.c        ****   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+ 131:test.c        ****   GPIO_Init(GPIOA, &GPIO_InitStructure);
+ 132:test.c        ****   /* Confugure MISO pin as Input Floating  */
+ 133:test.c        ****   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
+ 134:test.c        ****   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+ 135:test.c        ****   GPIO_Init(GPIOA, &GPIO_InitStructure);
+ 136:test.c        ****   
+ 137:test.c        ****     /* Configure SPI2 pins: SCK, MISO and MOSI ---------------------------------*/
+ 138:test.c        ****     /* Confugure SCK and MOSI pins as Input Floating */
+ 139:test.c        ****     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13 | GPIO_Pin_15;
+ 140:test.c        ****     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 141:test.c        ****     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+ 142:test.c        ****     GPIO_Init(GPIOB, &GPIO_InitStructure);
+ 143:test.c        ****     /* Confugure MISO pin as Alternate Function Push Pull */
+ 144:test.c        ****     //  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_14;
+ 145:test.c        ****     //  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+ 146:test.c        ****     //  GPIO_Init(GPIOB, &GPIO_InitStructure);
+ 147:test.c        **** 
+ 148:test.c        ****     /* SPI1 configuration ------------------------------------------------------*/
+ 149:test.c        ****     SPI_InitStructure.SPI_Direction = SPI_Direction_2Lines_FullDuplex;
+ 150:test.c        ****     SPI_InitStructure.SPI_Mode = SPI_Mode_Master;
+ 151:test.c        ****     SPI_InitStructure.SPI_DataSize = SPI_DataSize_8b;
+ 152:test.c        ****     SPI_InitStructure.SPI_CPOL = SPI_CPOL_High;
+ 153:test.c        ****     SPI_InitStructure.SPI_CPHA = SPI_CPHA_2Edge;
+ 154:test.c        ****     SPI_InitStructure.SPI_NSS = SPI_NSS_Soft;
+ 155:test.c        ****     SPI_InitStructure.SPI_FirstBit = SPI_FirstBit_MSB;
+ 156:test.c        ****     SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_8;
+ 157:test.c        ****     SPI_Init(SPI1, &SPI_InitStructure);
+ 158:test.c        **** 
+ 159:test.c        ****     /* SPI2 configuration ------------------------------------------------------*/
+ 160:test.c        ****     SPI_InitStructure.SPI_Direction = SPI_Direction_1Line_Rx;
+ 161:test.c        ****     SPI_InitStructure.SPI_Mode = SPI_Mode_Slave;
+ 162:test.c        ****     SPI_Init(SPI2, &SPI_InitStructure);
+ 163:test.c        **** 
+ 164:test.c        ****     SPI_Cmd(SPI1, ENABLE);
+ 165:test.c        ****     SPI_Cmd(SPI2, ENABLE);
+ 166:test.c        **** #endif
+ 167:test.c        ****     
+ 168:test.c        ****     
+ 169:test.c        ****   /* Configure USARTy Tx as alternate function open-drain */
+ 170:test.c        ****   GPIO_InitStructure.GPIO_Pin = USARTy_TxPin;
+ 116              		.loc 1 170 0
+ 117 004e 4FF40073 		mov	r3, #512	@ movhi
+ 118 0052 ADF81430 		strh	r3, [sp, #20]	@ movhi
+ 171:test.c        ****   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 172:test.c        ****   // GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_OD;
+ 173:test.c        ****   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+ 174:test.c        ****   GPIO_Init(USARTy_GPIO, &GPIO_InitStructure);
+ 119              		.loc 1 174 0
+ 120 0056 2248     		ldr	r0, .L12+4
+ 173:test.c        ****   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+ 121              		.loc 1 173 0
+ 122 0058 1823     		movs	r3, #24
+ 123              		.loc 1 174 0
+ 124 005a 05A9     		add	r1, sp, #20
+ 171:test.c        ****   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+ 125              		.loc 1 171 0
+ 126 005c 8DF81640 		strb	r4, [sp, #22]
+ 173:test.c        ****   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+ 127              		.loc 1 173 0
+ 128 0060 8DF81730 		strb	r3, [sp, #23]
+ 129              		.loc 1 174 0
+ 130 0064 FFF7FEFF 		bl	GPIO_Init
+ 175:test.c        **** 
+ 176:test.c        ****   /* Configure USARTz Tx as alternate function open-drain */
+ 177:test.c        ****   GPIO_InitStructure.GPIO_Pin = USARTz_TxPin;
+ 131              		.loc 1 177 0
+ 132 0068 0423     		movs	r3, #4
+ 178:test.c        ****   GPIO_Init(USARTz_GPIO, &GPIO_InitStructure);
+ 133              		.loc 1 178 0
+ 134 006a 05A9     		add	r1, sp, #20
+ 135 006c 1C48     		ldr	r0, .L12+4
+ 177:test.c        ****   GPIO_InitStructure.GPIO_Pin = USARTz_TxPin;
+ 136              		.loc 1 177 0
+ 137 006e ADF81430 		strh	r3, [sp, #20]	@ movhi
+ 138              		.loc 1 178 0
+ 139 0072 FFF7FEFF 		bl	GPIO_Init
+ 179:test.c        **** 
+ 180:test.c        ****   USART_StructInit(&USART_InitStructure);
+ 140              		.loc 1 180 0
+ 141 0076 01A8     		add	r0, sp, #4
+ 142 0078 FFF7FEFF 		bl	USART_StructInit
+ 181:test.c        ****   // USART_InitStructure.USART_BaudRate = 9600;
+ 182:test.c        ****   // USART_InitStructure.USART_BaudRate = 230400;
+ 183:test.c        ****   // USART_InitStructure.USART_BaudRate = 460800;
+ 184:test.c        ****   // USART_InitStructure.USART_BaudRate = 500000;
+ 185:test.c        ****   // USART_InitStructure.USART_BaudRate = 4500000;
+ 186:test.c        ****   // USART_InitStructure.USART_BaudRate = 921600;
+ 187:test.c        ****   USART_InitStructure.USART_BaudRate = 2250000;
+ 143              		.loc 1 187 0
+ 144 007c 194B     		ldr	r3, .L12+8
+ 188:test.c        ****   USART_InitStructure.USART_WordLength = USART_WordLength_9b;
+ 189:test.c        ****   USART_InitStructure.USART_StopBits = USART_StopBits_1;
+ 190:test.c        ****   USART_InitStructure.USART_Parity = USART_Parity_No;
+ 191:test.c        ****   USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+ 192:test.c        ****   USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+ 193:test.c        **** 
+ 194:test.c        ****   /* Configure USARTy */
+ 195:test.c        ****   USART_Init(USARTy, &USART_InitStructure);
+ 145              		.loc 1 195 0
+ 146 007e 1A48     		ldr	r0, .L12+12
+ 187:test.c        ****   USART_InitStructure.USART_BaudRate = 2250000;
+ 147              		.loc 1 187 0
+ 148 0080 0193     		str	r3, [sp, #4]
+ 188:test.c        ****   USART_InitStructure.USART_WordLength = USART_WordLength_9b;
+ 149              		.loc 1 188 0
+ 150 0082 4FF48053 		mov	r3, #4096	@ movhi
+ 151 0086 ADF80830 		strh	r3, [sp, #8]	@ movhi
+ 189:test.c        ****   USART_InitStructure.USART_StopBits = USART_StopBits_1;
+ 152              		.loc 1 189 0
+ 153 008a 0023     		movs	r3, #0
+ 154 008c ADF80A30 		strh	r3, [sp, #10]	@ movhi
+ 190:test.c        ****   USART_InitStructure.USART_Parity = USART_Parity_No;
+ 155              		.loc 1 190 0
+ 156 0090 ADF80C30 		strh	r3, [sp, #12]	@ movhi
+ 191:test.c        ****   USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+ 157              		.loc 1 191 0
+ 158 0094 ADF81030 		strh	r3, [sp, #16]	@ movhi
+ 159              		.loc 1 195 0
+ 160 0098 01A9     		add	r1, sp, #4
+ 192:test.c        ****   USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+ 161              		.loc 1 192 0
+ 162 009a 0C23     		movs	r3, #12
+ 163 009c ADF80E30 		strh	r3, [sp, #14]	@ movhi
+ 164              		.loc 1 195 0
+ 165 00a0 FFF7FEFF 		bl	USART_Init
+ 196:test.c        ****   /* Configure USARTz */
+ 197:test.c        ****   USART_Init(USARTz, &USART_InitStructure);
+ 166              		.loc 1 197 0
+ 167 00a4 1148     		ldr	r0, .L12+16
+ 168 00a6 01A9     		add	r1, sp, #4
+ 169 00a8 FFF7FEFF 		bl	USART_Init
+ 198:test.c        ****   
+ 199:test.c        ****   /*
+ 200:test.c        ****   USART_ClockStructInit(&USART_ClockInitStructure);
+ 201:test.c        ****   USART_ClockInit(USARTy, &USART_ClockInitStructure);
+ 202:test.c        ****   USART_ClockInit(USARTz, &USART_ClockInitStructure);
+ 203:test.c        ****   */
+ 204:test.c        ****   
+ 205:test.c        ****   
+ 206:test.c        ****   /* Enable the USARTy */
+ 207:test.c        ****   USART_Cmd(USARTy, ENABLE);
+ 170              		.loc 1 207 0
+ 171 00ac 0E48     		ldr	r0, .L12+12
+ 172 00ae 0121     		movs	r1, #1
+ 173 00b0 FFF7FEFF 		bl	USART_Cmd
+ 208:test.c        ****   /* Enable the USARTz */
+ 209:test.c        ****   USART_Cmd(USARTz, ENABLE);
+ 174              		.loc 1 209 0
+ 175 00b4 0D48     		ldr	r0, .L12+16
+ 176 00b6 0121     		movs	r1, #1
+ 177 00b8 FFF7FEFF 		bl	USART_Cmd
+ 210:test.c        **** 
+ 211:test.c        ****   /* Enable USARTy Half Duplex Mode*/
+ 212:test.c        ****   // USART_HalfDuplexCmd(USARTy, ENABLE);
+ 213:test.c        ****   /* Enable USARTz Half Duplex Mode*/
+ 214:test.c        ****   // USART_HalfDuplexCmd(USARTz, ENABLE);
+ 215:test.c        ****   
+ 216:test.c        ****   while (1) {
+ 217:test.c        ****       // USART_SendData(USARTy, 0xFF);
+ 218:test.c        ****       // USART_SendData(USARTy, 0x00);
+ 219:test.c        ****       // USART_SendData(USARTz, 0x081);
+ 220:test.c        ****       while(USART_GetFlagStatus(USARTy, USART_FLAG_RXNE) == RESET) {}
+ 221:test.c        ****       USART_ReceiveData(USARTy);
+ 222:test.c        ****       GPIOC->ODR ^= GPIO_Pin_10;
+ 178              		.loc 1 222 0
+ 179 00bc 074C     		ldr	r4, .L12
+ 180              	.L11:
+ 220:test.c        ****       while(USART_GetFlagStatus(USARTy, USART_FLAG_RXNE) == RESET) {}
+ 181              		.loc 1 220 0 discriminator 1
+ 182 00be 0A48     		ldr	r0, .L12+12
+ 183 00c0 2021     		movs	r1, #32
+ 184 00c2 FFF7FEFF 		bl	USART_GetFlagStatus
+ 185 00c6 0028     		cmp	r0, #0
+ 186 00c8 F9D0     		beq	.L11
+ 221:test.c        ****       USART_ReceiveData(USARTy);
+ 187              		.loc 1 221 0
+ 188 00ca 0748     		ldr	r0, .L12+12
+ 189 00cc FFF7FEFF 		bl	USART_ReceiveData
+ 190              		.loc 1 222 0
+ 191 00d0 E368     		ldr	r3, [r4, #12]
+ 192 00d2 83F48063 		eor	r3, r3, #1024
+ 193 00d6 E360     		str	r3, [r4, #12]
+ 194 00d8 F1E7     		b	.L11
+ 195              	.L13:
+ 196 00da 00BF     		.align	2
+ 197              	.L12:
+ 198 00dc 00100140 		.word	1073811456
+ 199 00e0 00080140 		.word	1073809408
+ 200 00e4 10552200 		.word	2250000
+ 201 00e8 00380140 		.word	1073821696
+ 202 00ec 00440040 		.word	1073759232
+ 203              	.LFE30:
+ 205              		.global	SPI1_Buffer_Tx
+ 206              		.global	SPI2_Buffer_Tx
+ 207              		.global	TxIdx
+ 208              		.global	RxIdx
+ 209              		.global	CRC1Value
+ 210              		.global	CRC2Value
+ 211              		.global	TransferStatus1
+ 212              		.global	TransferStatus2
+ 213              		.comm	SPI1_Buffer_Rx,64,2
+ 214              		.comm	SPI2_Buffer_Rx,64,2
+ 215              		.section	.bss.TxIdx,"aw",%nobits
+ 216              		.align	2
+ 219              	TxIdx:
+ 220 0000 00000000 		.space	4
+ 221              		.section	.bss.CRC2Value,"aw",%nobits
+ 222              		.align	1
+ 225              	CRC2Value:
+ 226 0000 0000     		.space	2
+ 227              		.section	.data.SPI1_Buffer_Tx,"aw",%progbits
+ 228              		.align	1
+ 231              	SPI1_Buffer_Tx:
+ 232 0000 0201     		.short	258
+ 233 0002 0403     		.short	772
+ 234 0004 0605     		.short	1286
+ 235 0006 0807     		.short	1800
+ 236 0008 0A09     		.short	2314
+ 237 000a 0C0B     		.short	2828
+ 238 000c 0E0D     		.short	3342
+ 239 000e 100F     		.short	3856
+ 240 0010 1211     		.short	4370
+ 241 0012 1413     		.short	4884
+ 242 0014 1615     		.short	5398
+ 243 0016 1817     		.short	5912
+ 244 0018 1A19     		.short	6426
+ 245 001a 1C1B     		.short	6940
+ 246 001c 1E1D     		.short	7454
+ 247 001e 201F     		.short	7968
+ 248 0020 2221     		.short	8482
+ 249 0022 2423     		.short	8996
+ 250 0024 2625     		.short	9510
+ 251 0026 2827     		.short	10024
+ 252 0028 2A29     		.short	10538
+ 253 002a 2C2B     		.short	11052
+ 254 002c 2E2D     		.short	11566
+ 255 002e 302F     		.short	12080
+ 256 0030 3231     		.short	12594
+ 257 0032 3433     		.short	13108
+ 258 0034 3635     		.short	13622
+ 259 0036 3837     		.short	14136
+ 260 0038 3A39     		.short	14650
+ 261 003a 3C3B     		.short	15164
+ 262 003c 3E3D     		.short	15678
+ 263 003e 403F     		.short	16192
+ 264              		.section	.data.SPI2_Buffer_Tx,"aw",%progbits
+ 265              		.align	1
+ 268              	SPI2_Buffer_Tx:
+ 269 0000 5251     		.short	20818
+ 270 0002 5453     		.short	21332
+ 271 0004 5655     		.short	21846
+ 272 0006 5857     		.short	22360
+ 273 0008 5A59     		.short	22874
+ 274 000a 5C5B     		.short	23388
+ 275 000c 5E5D     		.short	23902
+ 276 000e 605F     		.short	24416
+ 277 0010 6261     		.short	24930
+ 278 0012 6463     		.short	25444
+ 279 0014 6665     		.short	25958
+ 280 0016 6867     		.short	26472
+ 281 0018 6A69     		.short	26986
+ 282 001a 6C6B     		.short	27500
+ 283 001c 6E6D     		.short	28014
+ 284 001e 706F     		.short	28528
+ 285 0020 7271     		.short	29042
+ 286 0022 7473     		.short	29556
+ 287 0024 7675     		.short	30070
+ 288 0026 7877     		.short	30584
+ 289 0028 7A79     		.short	31098
+ 290 002a 7C7B     		.short	31612
+ 291 002c 7E7D     		.short	32126
+ 292 002e 807F     		.short	32640
+ 293 0030 8281     		.short	-32382
+ 294 0032 8483     		.short	-31868
+ 295 0034 8685     		.short	-31354
+ 296 0036 8887     		.short	-30840
+ 297 0038 8A89     		.short	-30326
+ 298 003a 8C8B     		.short	-29812
+ 299 003c 8E8D     		.short	-29298
+ 300 003e 908F     		.short	-28784
+ 301              		.section	.bss.CRC1Value,"aw",%nobits
+ 302              		.align	1
+ 305              	CRC1Value:
+ 306 0000 0000     		.space	2
+ 307              		.section	.bss.TransferStatus2,"aw",%nobits
+ 310              	TransferStatus2:
+ 311 0000 00       		.space	1
+ 312              		.section	.bss.TransferStatus1,"aw",%nobits
+ 315              	TransferStatus1:
+ 316 0000 00       		.space	1
+ 317              		.section	.bss.RxIdx,"aw",%nobits
+ 318              		.align	2
+ 321              	RxIdx:
+ 322 0000 00000000 		.space	4
+ 375              	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 test.c
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:23     .text.Buffercmp:0000000000000000 $t
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:28     .text.Buffercmp:0000000000000000 Buffercmp
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:63     .text.Test_SPI2:0000000000000000 $t
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:68     .text.Test_SPI2:0000000000000000 Test_SPI2
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:198    .text.Test_SPI2:00000000000000dc $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:231    .data.SPI1_Buffer_Tx:0000000000000000 SPI1_Buffer_Tx
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:268    .data.SPI2_Buffer_Tx:0000000000000000 SPI2_Buffer_Tx
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:219    .bss.TxIdx:0000000000000000 TxIdx
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:321    .bss.RxIdx:0000000000000000 RxIdx
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:305    .bss.CRC1Value:0000000000000000 CRC1Value
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:225    .bss.CRC2Value:0000000000000000 CRC2Value
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:315    .bss.TransferStatus1:0000000000000000 TransferStatus1
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:310    .bss.TransferStatus2:0000000000000000 TransferStatus2
+                            *COM*:0000000000000040 SPI1_Buffer_Rx
+                            *COM*:0000000000000040 SPI2_Buffer_Rx
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:216    .bss.TxIdx:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:222    .bss.CRC2Value:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:228    .data.SPI1_Buffer_Tx:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:265    .data.SPI2_Buffer_Tx:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:302    .bss.CRC1Value:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:311    .bss.TransferStatus2:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:316    .bss.TransferStatus1:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:318    .bss.RxIdx:0000000000000000 $d
+/var/folders/hf/1q98hq1x3fzgkd5ts8kwc2b00000gr/T//cccUm0Cz.s:336    .debug_frame:0000000000000010 $d
+
+UNDEFINED SYMBOLS
+SystemInit
+RCC_PCLK2Config
+RCC_APB2PeriphClockCmd
+RCC_APB1PeriphClockCmd
+GPIO_Init
+USART_StructInit
+USART_Init
+USART_Cmd
+USART_GetFlagStatus
+USART_ReceiveData

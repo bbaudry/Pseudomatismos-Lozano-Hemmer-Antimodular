@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/TS-7800/Controller
+END
+fsserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/TS-7800/Controller/fsserver.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/proj/!svn/ver/540/Antimodular/FlatSun/firmware/TS-7800/Controller/Makefile
+END
+flatsun.init
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/proj/!svn/ver/541/Antimodular/FlatSun/firmware/TS-7800/Controller/flatsun.init
+END

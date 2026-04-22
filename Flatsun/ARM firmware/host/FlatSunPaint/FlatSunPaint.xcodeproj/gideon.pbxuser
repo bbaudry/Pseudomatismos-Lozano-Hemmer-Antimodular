@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = F330FF0A1385685300476871 /* FlatSunPaint */;
+		activeTarget = 8D1107260486CEB800E47090 /* FlatSunPaint */;
+		breakpoints = (
+			F3233BDD13EC7FAB00399230 /* USBInterface.cpp:182 */,
+			F3233C6913EC889400399230 /* DisplayInterface.cpp:249 */,
+		);
+		codeSenseManager = F330FF301385685800476871 /* Code sense */;
+		executables = (
+			F330FF0A1385685300476871 /* FlatSunPaint */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					426,
+					20,
+					326,
+					326,
+					255,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1111,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1223,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					1148,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					1184,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1183,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338921651;
+			PBXWorkspaceStateSaveDate = 338921651;
+		};
+		perUserProjectItems = {
+			F30478FB13A2BEB300AC8C84 /* PBXTextBookmark */ = F30478FB13A2BEB300AC8C84 /* PBXTextBookmark */;
+			F3233C9C13EC8AE100399230 /* PBXTextBookmark */ = F3233C9C13EC8AE100399230 /* PBXTextBookmark */;
+			F3233C9D13EC8AE100399230 /* PBXTextBookmark */ = F3233C9D13EC8AE100399230 /* PBXTextBookmark */;
+			F331CF8614336E4500DF76D4 /* PBXTextBookmark */ = F331CF8614336E4500DF76D4 /* PBXTextBookmark */;
+			F331CF8714336E4500DF76D4 /* PBXTextBookmark */ = F331CF8714336E4500DF76D4 /* PBXTextBookmark */;
+			F374B8AF143388D700086421 /* PBXTextBookmark */ = F374B8AF143388D700086421 /* PBXTextBookmark */;
+			F374B8B1143388DA00086421 /* PBXTextBookmark */ = F374B8B1143388DA00086421 /* PBXTextBookmark */;
+			F3CDBB2E13F0175D005B7F57 /* PBXTextBookmark */ = F3CDBB2E13F0175D005B7F57 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F330FF2F1385685800476871 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1386, 810}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 125}";
+		};
+	};
+	45FA335A07B6DB1000A21437 /* CIMicroPaintView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1593, 1365}}";
+			sepNavSelRange = "{1713, 0}";
+			sepNavVisRange = "{903, 1106}";
+		};
+	};
+	571414ED07C2C08800B816A8 /* SampleCIView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1593, 403}}";
+			sepNavSelRange = "{116, 0}";
+			sepNavVisRange = "{0, 690}";
+		};
+	};
+	571414EE07C2C08800B816A8 /* SampleCIView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1386, 3484}}";
+			sepNavSelRange = "{3513, 0}";
+			sepNavVisRange = "{59, 774}";
+		};
+	};
+	8D1107260486CEB800E47090 /* FlatSunPaint */ = {
+		activeExec = 0;
+		executables = (
+			F330FF0A1385685300476871 /* FlatSunPaint */,
+		);
+	};
+	F30478FB13A2BEB300AC8C84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F30478FC13A2BEB300AC8C84 /* stl_list.h */;
+		name = "stl_list.h: 82";
+		rLen = 0;
+		rLoc = 3351;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 2701;
+	};
+	F30478FC13A2BEB300AC8C84 /* stl_list.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_list.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_list.h";
+		sourceTree = "<absolute>";
+	};
+	F3233BC813EC7F3E00399230 /* USBInterface.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = USBInterface.cpp;
+		path = /Users/gideon/proj/Antimodular/FlatSun/host/FlatSun/USBInterface.cpp;
+		sourceTree = "<absolute>";
+	};
+	F3233BDD13EC7FAB00399230 /* USBInterface.cpp:182 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F3233BC813EC7F3E00399230 /* USBInterface.cpp */;
+		functionName = "USBInterface::transmitBulk(unsigned char * buffer, int bufferSize)";
+		hitCount = 7;
+		ignoreCount = 0;
+		lineNumber = 182;
+		location = FlatSun;
+		modificationTime = 334504050.615569;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	F3233BFE13EC801000399230 /* DisplayInterface.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = DisplayInterface.cpp;
+		path = /Users/gideon/proj/Antimodular/FlatSun/host/FlatSun/DisplayInterface.cpp;
+		sourceTree = "<absolute>";
+	};
+	F3233C6913EC889400399230 /* DisplayInterface.cpp:249 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F3233BFE13EC801000399230 /* DisplayInterface.cpp */;
+		functionName = "DisplayInterface::update()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 249;
+		location = FlatSun;
+		modificationTime = 334504013.844377;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	F3233C8013EC89A500399230 /* sync.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = sync.c;
+		path = /Users/gideon/proj/Antimodular/FlatSun/host/libusb/libusb/sync.c;
+		sourceTree = "<absolute>";
+	};
+	F3233C9C13EC8AE100399230 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F3233C8013EC89A500399230 /* sync.c */;
+		name = "sync.c: 258";
+		rLen = 0;
+		rLoc = 8664;
+		rType = 0;
+		vrLen = 2427;
+		vrLoc = 0;
+	};
+	F3233C9D13EC8AE100399230 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 125;
+		vrLoc = 0;
+	};
+	F330FF0A1385685300476871 /* FlatSunPaint */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FlatSunPaint;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F330FF2F1385685800476871 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F330FF301385685800476871 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F331CF8614336E4500DF76D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 571414EE07C2C08800B816A8 /* SampleCIView.m */;
+		name = "SampleCIView.m: 148";
+		rLen = 0;
+		rLoc = 3513;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 59;
+	};
+	F331CF8714336E4500DF76D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F331CF8814336E4500DF76D4 /* darwin_usb.c */;
+		name = "darwin_usb.c: 289";
+		rLen = 0;
+		rLoc = 9329;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 7451;
+	};
+	F331CF8814336E4500DF76D4 /* darwin_usb.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = darwin_usb.c;
+		path = /Users/gideon/proj/Antimodular/FlatSun/host/FlatSun/../libusb/libusb/os/darwin_usb.c;
+		sourceTree = "<absolute>";
+	};
+	F374B8AF143388D700086421 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 571414ED07C2C08800B816A8 /* SampleCIView.h */;
+		name = "SampleCIView.h: 5";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 0;
+	};
+	F374B8B1143388DA00086421 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 571414ED07C2C08800B816A8 /* SampleCIView.h */;
+		name = "SampleCIView.h: 5";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 0;
+	};
+	F3CDBB2E13F0175D005B7F57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45FA335A07B6DB1000A21437 /* CIMicroPaintView.m */;
+		name = "CIMicroPaintView.m: 66";
+		rLen = 0;
+		rLoc = 1713;
+		rType = 0;
+		vrLen = 1076;
+		vrLoc = 876;
+	};
+}

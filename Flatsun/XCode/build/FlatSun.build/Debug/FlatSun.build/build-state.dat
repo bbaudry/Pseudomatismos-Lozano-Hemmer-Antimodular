@@ -1,0 +1,2797 @@
+TFlatSun
+v7
+r0
+t376379738.116818
+cCheck dependencies
+cProcessInfoPlistFile /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Info.plist FlatSun-Info.plist
+cCpResource build/Debug/FlatSun.app/Contents/Resources/Color.frag Color.frag
+cCpResource build/Debug/FlatSun.app/Contents/Resources/Color.vert Color.vert
+cCpResource build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.frag ReactDiffuse.frag
+cCpResource build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.vert ReactDiffuse.vert
+cCpResource build/Debug/FlatSun.app/Contents/Resources/Perlin.frag Perlin.frag
+cCpResource build/Debug/FlatSun.app/Contents/Resources/Perlin.vert Perlin.vert
+cCopyStringsFile /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /FlatSun/Code/FlatSun/English.lproj/MainMenu.xib
+cCpResource build/Debug/FlatSun.app/Contents/Resources/sun.gif sun.gif
+cCpResource build/Debug/FlatSun.app/Contents/Resources/Sun.icns Sun.icns
+cCpResource build/Debug/FlatSun.app/Contents/Resources/ShutDown.aiff ShutDown.aiff
+cCpResource build/Debug/FlatSun.app/Contents/Resources/StartUp.aiff StartUp.aiff
+cCpResource build/Debug/FlatSun.app/Contents/Resources/Sleep.aiff Sleep.aiff
+cProcessPCH /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ITable.o /FlatSun/Code/FlatSun/ITable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/UdpSocket.o /FlatSun/Code/FlatSun/UdpSocket.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o /FlatSun/Code/FlatSun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o /FlatSun/Code/FlatSun/FlatSunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o /FlatSun/Code/FlatSun/CamView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o /FlatSun/Code/FlatSun/Routines.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o /FlatSun/Code/FlatSun/ImageUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o /FlatSun/Code/FlatSun/Math2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o /FlatSun/Code/FlatSun/StopWatch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o /FlatSun/Code/FlatSun/Camera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o /FlatSun/Code/FlatSun/LedPanel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o /FlatSun/Code/FlatSun/LedPanelView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o /FlatSun/Code/FlatSun/GLUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o /FlatSun/Code/FlatSun/RDColor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o /FlatSun/Code/FlatSun/Shader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o /FlatSun/Code/FlatSun/Noise3DTexture.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o /FlatSun/Code/FlatSun/mat4.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o /FlatSun/Code/FlatSun/ReactDiffuse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o /FlatSun/Code/FlatSun/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o /FlatSun/Code/FlatSun/Perlin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o /FlatSun/Code/FlatSun/BlobFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o /FlatSun/Code/FlatSun/Sphere.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o /FlatSun/Code/FlatSun/HaloView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Texture.o /FlatSun/Code/FlatSun/Texture.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Settings.o /FlatSun/Code/FlatSun/Settings.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Dimmer.o /FlatSun/Code/FlatSun/Dimmer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Serial.o /FlatSun/Code/FlatSun/Serial.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BaseTexture.o /FlatSun/Code/FlatSun/BaseTexture.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/FlatSun.framework/FlatSun
+c000000004DF89CA4000000000005046C
+t1308138660
+s328812
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/FlatSun.framework/Headers/FSInterface.h
+c000000004DF7A90D0000000000000182
+t1308076301
+s386
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/RD.framework/Headers/RDInterface.h
+c000000004CCF0658000000000000014B
+t1288635992
+s331
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/RD.framework/RD
+c000000004CCF0A250000000000043638
+t1288636965
+s276024
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/dc1394.framework/Headers/dc1394.h
+c000000004DD1621F0000000000000777
+t1305567775
+s1911
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004B99A2320000000000003A54
+t1268359730
+s14932
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B448EEF00000000000005FF
+t1262784239
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004B99A233000000000001A854
+t1268359731
+s108628
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004AC3C6120000000000000401
+t1254344210
+s1025
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B447F4E00000000000013E6
+t1262780238
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B44A0F3000000000000578C
+t1262788851
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOMessage.h
+c000000004B56971D0000000000000DE0
+t1263965981
+s3552
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPSKeys.h
+c000000004B569C03000000000000564A
+t1263967235
+s22090
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/ps/IOPowerSources.h
+c000000004B569C030000000000001A14
+t1263967235
+s6676
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMLib.h
+c000000004B569C040000000000006CA0
+t1263967236
+s27808
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004B99A233000000000003AB6C
+t1268359731
+s240492
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004B824D230000000000001659
+t1266830627
+s5721
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004B824D230000000000025B59
+t1266830627
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004B824D230000000000042ACF
+t1266830627
+s273103
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004B824D230000000000003F84
+t1266830627
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004B99A234000000000009BD64
+t1268359732
+s638308
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC31EFD0000000000001533
+t1254301437
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC3260600000000000003EA
+t1254303238
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ifaddrs.h
+c000000004AC31F0D0000000000000782
+t1254301453
+s1922
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC320BA00000000000004F1
+t1254301882
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B56971B000000000000539D
+t1263965979
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC326060000000000002DF5
+t1254303238
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004B56971D000000000000116C
+t1263965981
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B56971E00000000000059BC
+t1263965982
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004B56971E0000000000001E17
+t1263965982
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B56971E0000000000002905
+t1263965982
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/termios.h
+c000000004AC3260600000000000004D4
+t1254303238
+s1236
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC32606000000000000563E
+t1254303238
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004AC32665000000000000190C
+t1254303333
+s6412
+
+N/FlatSun/BlobFinder.h
+c000000004DE7EC980000000000000B80
+t1307045016
+s2944
+i<Cocoa/Cocoa.h>
+i"Global.h"
+i"Camera.h"
+
+N/FlatSun/BlobFinder.m
+c000000004DE7D33C00000000000047C9
+t1307038524
+s18377
+i"BlobFinder.h"
+i"Global.h"
+i"Routines.h"
+i"ImageUtils.h"
+
+N/FlatSun/CamView.h
+c000000004DE529EA00000000000000D0
+t1306864106
+s208
+i<Cocoa/Cocoa.h>
+i"Camera.h"
+
+N/FlatSun/CamView.m
+c000000004DE529E8000000000000025B
+t1306864104
+s603
+i"CamView.h"
+
+N/FlatSun/Camera.h
+c000000004DFB73D20000000000000A8C
+t1308324818
+s2700
+i<Cocoa/Cocoa.h>
+i<dc1394/dc1394.h>
+i"CamView.h"
+i"Global.h"
+i"Routines.h"
+i"RDView.h"
+i"LedPanelView.h"
+i"GLView.h"
+i"LedPanel.h"
+i"StopWatch.h"
+i"BlobFinder.h"
+
+N/FlatSun/Camera.m
+c000000004DFB86FE0000000000003C4A
+t1308329726
+s15434
+i"Camera.h"
+
+N/FlatSun/Code/FlatSun/../../../../System/Library/Frameworks/QTKit.framework/QTKit
+c000000004CC8C28B00000000006705E0
+t1288225419
+s6751712
+
+N/FlatSun/Code/FlatSun/../../Frameworks/FlatSun.framework/FlatSun
+c0000000050C60BD40000000000018A40
+t1355156436
+s100928
+
+N/FlatSun/Code/FlatSun/../../Frameworks/dc1394.framework/dc1394
+c000000004ED580C500000000000313D8
+t1322614981
+s201688
+
+N/FlatSun/Code/FlatSun/../System/Library/Frameworks/IOKit.framework/IOKit
+c00000000000000000000000000000000
+t2
+s0
+
+N/FlatSun/Code/FlatSun/BaseTexture.h
+c000000005103683E0000000000000246
+t1359177790
+s582
+i<Cocoa/Cocoa.h>
+i"Types.h"
+i"GLUtils.h"
+
+N/FlatSun/Code/FlatSun/BaseTexture.m
+c000000005103683E0000000000000867
+t1359177790
+s2151
+i"BaseTexture.h"
+
+N/FlatSun/Code/FlatSun/BlobFinder.h
+c000000005103683C0000000000000D11
+t1359177788
+s3345
+i<Cocoa/Cocoa.h>
+i"Global.h"
+i"Camera.h"
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/BlobFinder.m
+c000000005103683A0000000000004DF5
+t1359177786
+s19957
+i"BlobFinder.h"
+i"Global.h"
+i"Routines.h"
+i"ImageUtils.h"
+
+N/FlatSun/Code/FlatSun/CamView.h
+c00000000510368320000000000000104
+t1359177778
+s260
+i<Cocoa/Cocoa.h>
+i"Camera.h"
+
+N/FlatSun/Code/FlatSun/CamView.m
+c000000005103682E000000000000036B
+t1359177774
+s875
+i"CamView.h"
+
+N/FlatSun/Code/FlatSun/Camera.h
+c00000000510368340000000000001209
+t1359177780
+s4617
+i<Cocoa/Cocoa.h>
+i<dc1394/dc1394.h>
+i"CamView.h"
+i"Global.h"
+i"Routines.h"
+i"RDView.h"
+i"LedPanelView.h"
+i"GLView.h"
+i"LedPanel.h"
+i"StopWatch.h"
+i"BlobFinder.h"
+i"types.h"
+i"Settings.h"
+i"ITable.h"
+
+N/FlatSun/Code/FlatSun/Camera.m
+c00000000510368360000000000006195
+t1359177782
+s24981
+i"Camera.h"
+
+N/FlatSun/Code/FlatSun/Color.frag
+c000000005103682E0000000000000422
+t1359177774
+s1058
+
+N/FlatSun/Code/FlatSun/Color.vert
+c000000005103682C0000000000000070
+t1359177772
+s112
+
+N/FlatSun/Code/FlatSun/ColorView.h
+c000000004BFE2A8C00000000000000B7
+t1274948236
+s183
+i<Cocoa/Cocoa.h>
+i"ReactDiffuse.h"
+
+N/FlatSun/Code/FlatSun/ColorView.m
+c000000004DD4A1B200000000000001E0
+t1305780658
+s480
+i"ColorView.h"
+
+N/FlatSun/Code/FlatSun/Dimmer.h
+c0000000051154ADB000000000000050B
+t1360349915
+s1291
+i<Foundation/Foundation.h>
+i"StopWatch.h"
+
+N/FlatSun/Code/FlatSun/Dimmer.m
+c0000000051154ADB0000000000000E1C
+t1360349915
+s3612
+i"Dimmer.h"
+
+N/FlatSun/Code/FlatSun/English.lproj/InfoPlist.strings
+c000000004FA872B0000000000000002D
+t1336439472
+s45
+
+N/FlatSun/Code/FlatSun/English.lproj/MainMenu.xib
+c000000005114B0A10000000000122EB6
+t1360310433
+s1191606
+
+N/FlatSun/Code/FlatSun/FlatSunAppDelegate.h
+c0000000051154A5F0000000000000660
+t1360349791
+s1632
+i<Cocoa/Cocoa.h>
+i"CamView.h"
+i"GLView.h"
+i"Sphere.h"
+i"Camera.h"
+i"LedPanel.h"
+i"Settings.h"
+i"UdpSocket.h"
+i"Serial.h"
+i"Dimmer.h"
+i"Texture.h"
+
+N/FlatSun/Code/FlatSun/FlatSunAppDelegate.m
+c000000005115658A0000000000002C14
+t1360356746
+s11284
+i"FlatSunAppDelegate.h"
+i<IOKit/ps/IOPowerSources.h>
+i<IOKIt/ps/IOPSKeys.h>
+i<IOKit/pwr_mgt/IOPMLib.h>
+i<IOKit/IOMessage.h>
+i<stdio.h>
+i<CoreServices/CoreServices.h>
+i<Carbon/Carbon.h>
+
+N/FlatSun/Code/FlatSun/FlatSun_Prefix.pch
+c00000000510368240000000000000091
+t1359177764
+s145
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Code/FlatSun/GLUtils.h
+c000000005103682000000000000001D2
+t1359177760
+s466
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Code/FlatSun/GLUtils.m
+c000000005103681C00000000000008FF
+t1359177756
+s2303
+i"GLUtils.h"
+
+N/FlatSun/Code/FlatSun/GLView.h
+c000000005103681C00000000000009A4
+t1359177756
+s2468
+i<Cocoa/Cocoa.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"ReactDiffuse.h"
+i"RDColor.h"
+i"ImageUtils.h"
+i"Perlin.h"
+i"LedPanel.h"
+i"LedPanelView.h"
+i"StopWatch.h"
+i"Sphere.h"
+i"HaloView.h"
+i"Camera.h"
+i"Texture.h"
+i"Settings.h"
+i"BaseTexture.h"
+
+N/FlatSun/Code/FlatSun/GLView.m
+c00000000511565560000000000003FDB
+t1360356694
+s16347
+i"GLView.h"
+
+N/FlatSun/Code/FlatSun/Global.h
+c000000005103682000000000000001E4
+t1359177760
+s484
+i<Carbon/Carbon.h>
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Code/FlatSun/HaloView.h
+c00000000510368180000000000000076
+t1359177752
+s118
+i<Cocoa/Cocoa.h>
+i"LedPanel.h"
+
+N/FlatSun/Code/FlatSun/HaloView.m
+c0000000051036818000000000000024B
+t1359177752
+s587
+i"HaloView.h"
+
+N/FlatSun/Code/FlatSun/ITable.h
+c00000000510368100000000000000375
+t1359177744
+s885
+i<Cocoa/Cocoa.h>
+i"Camera.h"
+
+N/FlatSun/Code/FlatSun/ITable.m
+c000000005103680E0000000000001759
+t1359177742
+s5977
+i"ITable.h"
+
+N/FlatSun/Code/FlatSun/ImageUtils.h
+c000000005103681200000000000004E9
+t1359177746
+s1257
+i<Cocoa/Cocoa.h>
+i"Global.h"
+
+N/FlatSun/Code/FlatSun/ImageUtils.m
+c00000000510368100000000000001C37
+t1359177744
+s7223
+i"ImageUtils.h"
+i"Routines.h"
+
+N/FlatSun/Code/FlatSun/LedPanel.h
+c000000005103680C0000000000000B5C
+t1359177740
+s2908
+i<Cocoa/Cocoa.h>
+i"FlatSun/FSInterface.h"
+i"Routines.h"
+i"Global.h"
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/LedPanel.m
+c0000000051083C670000000000003E8F
+t1359494247
+s16015
+i"LedPanel.h"
+
+N/FlatSun/Code/FlatSun/LedPanelView.h
+c000000005103680A0000000000000079
+t1359177738
+s121
+i<Cocoa/Cocoa.h>
+i"LedPanel.h"
+
+N/FlatSun/Code/FlatSun/LedPanelView.m
+c000000005103680C0000000000000250
+t1359177740
+s592
+i"LedPanelView.h"
+
+N/FlatSun/Code/FlatSun/Math2D.h
+c00000000510367FE00000000000000A0
+t1359177726
+s160
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Code/FlatSun/Math2D.m
+c00000000510367FC00000000000000EA
+t1359177724
+s234
+i"Math2D.h"
+
+N/FlatSun/Code/FlatSun/Noise3DTexture.c
+c00000000510367FA000000000000187B
+t1359177722
+s6267
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<OpenGL/gl.h>
+i"Noise3DTexture.h"
+
+N/FlatSun/Code/FlatSun/Noise3DTexture.h
+c00000000510367F80000000000000016
+t1359177720
+s22
+
+N/FlatSun/Code/FlatSun/Perlin.frag
+c00000000510367F80000000000000286
+t1359177720
+s646
+
+N/FlatSun/Code/FlatSun/Perlin.h
+c00000000510367F60000000000000718
+t1359177718
+s1816
+i"Shader.h"
+i"GLUtils.h"
+i"BlobFinder.h"
+i"GLView.h"
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/Perlin.m
+c00000000510367F60000000000001ED7
+t1359177718
+s7895
+i"Perlin.h"
+
+N/FlatSun/Code/FlatSun/Perlin.vert
+c00000000510367F400000000000001AD
+t1359177716
+s429
+
+N/FlatSun/Code/FlatSun/RDColor.h
+c00000000510367F20000000000000774
+t1359177714
+s1908
+i<Foundation/Foundation.h>
+i"Shader.h"
+i"ReactDiffuse.h"
+i"GLUtils.h"
+i"GLView.h"
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/RDColor.m
+c00000000510367F00000000000002254
+t1359177712
+s8788
+i"RDColor.h"
+
+N/FlatSun/Code/FlatSun/RDView.h
+c00000000510367EC00000000000000FC
+t1359177708
+s252
+i<Cocoa/Cocoa.h>
+i"ReactDiffuse.h"
+i"LedPanel.h"
+
+N/FlatSun/Code/FlatSun/RDView.m
+c000000004DD49B5200000000000004CD
+t1305779026
+s1229
+i"RDView.h"
+
+N/FlatSun/Code/FlatSun/ReactDiffuse.frag
+c00000000510367EE0000000000000604
+t1359177710
+s1540
+
+N/FlatSun/Code/FlatSun/ReactDiffuse.h
+c00000000510367E80000000000000F56
+t1359177704
+s3926
+i"Shader.h"
+i"Routines.h"
+i"BlobFinder.h"
+i"RDColor.h"
+i"GLView.h"
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/ReactDiffuse.m
+c00000000510367E80000000000005FD1
+t1359177704
+s24529
+i"ReactDiffuse.h"
+
+N/FlatSun/Code/FlatSun/ReactDiffuse.vert
+c00000000510367E80000000000000191
+t1359177704
+s401
+
+N/FlatSun/Code/FlatSun/Routines.h
+c00000000510367E60000000000000244
+t1359177702
+s580
+i<Cocoa/Cocoa.h>
+i<sys/time.h>
+
+N/FlatSun/Code/FlatSun/Routines.m
+c00000000510367E4000000000000079D
+t1359177700
+s1949
+i"Routines.h"
+
+N/FlatSun/Code/FlatSun/Serial.h
+c00000000510367E20000000000000180
+t1359177698
+s384
+i<Cocoa/Cocoa.h>
+i"Routines.h"
+
+N/FlatSun/Code/FlatSun/Serial.m
+c000000005112C7920000000000000FF1
+t1360185234
+s4081
+i"Serial.h"
+i<termios.h>
+i<sys/ioctl.h>
+
+N/FlatSun/Code/FlatSun/Settings.h
+c00000000510367E00000000000000628
+t1359177696
+s1576
+i<Foundation/Foundation.h>
+
+N/FlatSun/Code/FlatSun/Settings.m
+c00000000510367E00000000000001C12
+t1359177696
+s7186
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/Shader.h
+c00000000510367E00000000000000396
+t1359177696
+s918
+i<Cocoa/Cocoa.h>
+i<OpenGL/gl.h>
+i<OpenGL/glext.h>
+i<OpenGL/glu.h>
+i<OpenGL/OpenGL.h>
+i<GLUT/glut.h>
+i"Noise3DTexture.h"
+i"mat4.h"
+
+N/FlatSun/Code/FlatSun/Shader.m
+c00000000510367DE000000000000086E
+t1359177694
+s2158
+i"Shader.h"
+
+N/FlatSun/Code/FlatSun/ShutDown.aiff
+c00000000510367DC0000000000000000
+t1359177692
+s0
+
+N/FlatSun/Code/FlatSun/Sleep.aiff
+c00000000510367DC0000000000000000
+t1359177692
+s0
+
+N/FlatSun/Code/FlatSun/Sphere.h
+c0000000051036C8C0000000000001764
+t1359178892
+s5988
+i<Cocoa/Cocoa.h>
+i"Types.h"
+i"Math2D.h"
+i"Texture.h"
+i"GLView.h"
+i"Settings.h"
+i"Camera.h"
+i"LedPanel.h"
+i"ReactDiffuse.h"
+i"RDColor.h"
+i"Perlin.h"
+
+N/FlatSun/Code/FlatSun/Sphere.m
+c000000005106E5D30000000000008B1D
+t1359406547
+s35613
+i"Sphere.h"
+
+N/FlatSun/Code/FlatSun/StartUp.aiff
+c00000000510367DA0000000000057CE8
+t1359177690
+s359656
+
+N/FlatSun/Code/FlatSun/StopWatch.h
+c00000000510367D80000000000000299
+t1359177688
+s665
+i<Cocoa/Cocoa.h>
+i<sys/time.h>
+
+N/FlatSun/Code/FlatSun/StopWatch.m
+c00000000510367D6000000000000073E
+t1359177686
+s1854
+i"StopWatch.h"
+i<sys/time.h>
+
+N/FlatSun/Code/FlatSun/Sun.icns
+c000000004FA872AE0000000000008260
+t1336439470
+s33376
+
+N/FlatSun/Code/FlatSun/Texture.h
+c00000000510367C000000000000004C5
+t1359177664
+s1221
+i<Cocoa/Cocoa.h>
+i"Types.h"
+i"ReactDiffuse.h"
+i"GLUtils.h"
+i"Settings.h"
+
+N/FlatSun/Code/FlatSun/Texture.m
+c00000000511560EC0000000000001317
+t1360355564
+s4887
+i"Texture.h"
+
+N/FlatSun/Code/FlatSun/Types.h
+c00000000510367BC0000000000000401
+t1359177660
+s1025
+i<Carbon/Carbon.h>
+
+N/FlatSun/Code/FlatSun/UdpSocket.h
+c00000000511549FE0000000000000556
+t1360349694
+s1366
+i<sys/socket.h>
+i<netinet/in.h>
+i<sys/types.h>
+i<ifaddrs.h>
+i<arpa/inet.h>
+i<fcntl.h>
+i<unistd.h>
+i"Sphere.h"
+i"FlatSunAppDelegate.h"
+i"Dimmer.h"
+
+N/FlatSun/Code/FlatSun/UdpSocket.m
+c00000000511560950000000000001E45
+t1360355477
+s7749
+i<sys/socket.h>
+i<netinet/in.h>
+i<sys/types.h>
+i<ifaddrs.h>
+i"UdpSocket.h"
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app
+t1317134244
+s102
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Info.plist
+t1354686926
+s942
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun
+t1354686938
+s307568
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/PkgInfo
+t1354686926
+s8
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Color.frag
+t1354686926
+s1058
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Color.vert
+t1354686926
+s112
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1354686926
+s92
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Perlin.frag
+t1354686926
+s646
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Perlin.vert
+t1354686926
+s429
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.frag
+t1354686926
+s1540
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.vert
+t1354686926
+s401
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/ShutDown.aiff
+t1354686926
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Sleep.aiff
+t1354686926
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/StartUp.aiff
+t1354686926
+s359656
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Sun.icns
+t1354686926
+s33376
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun.gif
+t1354686926
+s119854
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun1.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun2.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun3.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun4.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun5.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun6.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun7.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/sun8.jpg
+t2
+s0
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BaseTexture.o
+t1354686938
+s17676
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o
+t1354686936
+s71376
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o
+t1354686934
+s34680
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o
+t1354686935
+s94792
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ColorView.o
+t1305780673
+s15968
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Dimmer.o
+t1354686937
+s21616
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSun.LinkFileList
+c0000000050BEE1CE0000000000000A2F
+t1354686926
+s2607
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o
+t1354686934
+s66540
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o
+t1354686935
+s10396
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o
+t1354686936
+s83400
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o
+t1354686937
+s16028
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ITable.o
+t1354686933
+s48428
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o
+t1354686934
+s21764
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o
+t1354686935
+s53924
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o
+t1354686935
+s16068
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o
+t1354686934
+s6016
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o
+t1354686935
+s16320
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o
+t1354686936
+s58104
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o
+t1354686935
+s55520
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDView.o
+t1305779027
+s16464
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o
+t1354686936
+s89384
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o
+t1354686934
+s13524
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Serial.o
+t1354686937
+s14564
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Settings.o
+t1354686937
+s24348
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o
+t1354686935
+s10160
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o
+t1354686937
+s96964
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o
+t1354686934
+s12624
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Texture.o
+t1354686937
+s25592
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/UdpSocket.o
+t1354686933
+s25300
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o
+t1354686933
+s4820
+
+N/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o
+t1354686935
+s4412
+
+N/FlatSun/Code/FlatSun/main.m
+c00000000510368000000000000000077
+t1359177728
+s119
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Code/FlatSun/mat4.c
+c00000000510368000000000000000DEF
+t1359177728
+s3567
+i<math.h>
+i"mat4.h"
+
+N/FlatSun/Code/FlatSun/mat4.h
+c00000000510368000000000000000A4C
+t1359177728
+s2636
+
+N/FlatSun/Code/FlatSun/sun.gif
+c000000004DFD0B64000000000001D42E
+t1308429156
+s119854
+
+N/FlatSun/Code/FlatSun/sun1.jpg
+c00000000510367D400000000000985B5
+t1359177684
+s624053
+
+N/FlatSun/Code/FlatSun/sun2.jpg
+c00000000510367D3000000000009580F
+t1359177683
+s612367
+
+N/FlatSun/Code/FlatSun/sun3.jpg
+c00000000510367CE0000000000069AF4
+t1359177678
+s432884
+
+N/FlatSun/Code/FlatSun/sun4.jpg
+c00000000510367CE0000000000090A18
+t1359177678
+s592408
+
+N/FlatSun/Code/FlatSun/sun5.jpg
+c00000000510367CA000000000008A74C
+t1359177674
+s567116
+
+N/FlatSun/Code/FlatSun/sun6.jpg
+c00000000510367CA00000000000938A9
+t1359177674
+s604329
+
+N/FlatSun/Code/FlatSun/sun7.jpg
+c00000000510367C7000000000007B3A2
+t1359177671
+s504738
+
+N/FlatSun/Code/FlatSun/sun8.jpg
+c00000000510367C400000000000C27AD
+t1359177668
+s796589
+
+N/FlatSun/Color.frag
+c000000004DF8F5A60000000000000422
+t1308161446
+s1058
+
+N/FlatSun/Color.vert
+c000000004CDDB8840000000000000070
+t1289599108
+s112
+
+N/FlatSun/English.lproj/InfoPlist.strings
+c000000004D3472AC000000000000002D
+t1295282860
+s45
+
+N/FlatSun/English.lproj/MainMenu.xib
+c000000004DFBBDA900000000000B816E
+t1308343721
+s754030
+
+N/FlatSun/FlatSunAppDelegate.h
+c000000004DFBBD9B000000000000024B
+t1308343707
+s587
+i<Cocoa/Cocoa.h>
+i"CamView.h"
+i"GLView.h"
+i"Sphere.h"
+
+N/FlatSun/FlatSunAppDelegate.m
+c000000004DFBBD9D00000000000002EB
+t1308343709
+s747
+i"FlatSunAppDelegate.h"
+
+N/FlatSun/FlatSun_Prefix.pch
+c000000004D3472AC0000000000000091
+t1295282860
+s145
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Frameworks/FlatSun.framework/Headers/FSInterface.h
+c0000000050C60B6A0000000000000507
+t1355156330
+s1287
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/camera.h
+c000000004DD530020000000000002059
+t1305817090
+s8281
+i<dc1394/log.h>
+i<stdio.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/capture.h
+c000000004DD530020000000000000F51
+t1305817090
+s3921
+i<dc1394/log.h>
+i<dc1394/video.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/control.h
+c000000004DD530020000000000003856
+t1305817090
+s14422
+i<dc1394/log.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/conversions.h
+c000000004DD5300200000000000024B6
+t1305817090
+s9398
+i<dc1394/log.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/dc1394.h
+c000000004DD530020000000000000777
+t1305817090
+s1911
+i<dc1394/types.h>
+i<dc1394/camera.h>
+i<dc1394/control.h>
+i<dc1394/capture.h>
+i<dc1394/conversions.h>
+i<dc1394/format7.h>
+i<dc1394/iso.h>
+i<dc1394/log.h>
+i<dc1394/register.h>
+i<dc1394/video.h>
+i<dc1394/utils.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/format7.h
+c000000004DD530020000000000001EA4
+t1305817090
+s7844
+i<dc1394/log.h>
+i<dc1394/video.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/iso.h
+c000000004DD530020000000000001B1C
+t1305817090
+s6940
+i<dc1394/log.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/log.h
+c000000004DD530020000000000002C11
+t1305817090
+s11281
+i<dc1394/dc1394.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/register.h
+c000000004DD53002000000000000194D
+t1305817090
+s6477
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/types.h
+c000000004DD5300200000000000014F1
+t1305817090
+s5361
+i<stdint.h>
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/utils.h
+c000000004DD530020000000000000DD5
+t1305817090
+s3541
+
+N/FlatSun/Frameworks/dc1394.framework/Headers/video.h
+c000000004DD530020000000000002A25
+t1305817090
+s10789
+i<dc1394/log.h>
+
+N/FlatSun/GLUtils.h
+c000000004DE554E6000000000000016C
+t1306875110
+s364
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/GLUtils.m
+c000000004DE553B80000000000000710
+t1306874808
+s1808
+i"GLUtils.h"
+
+N/FlatSun/GLView.h
+c000000004DFBBC6A000000000000073A
+t1308343402
+s1850
+i<Cocoa/Cocoa.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"ReactDiffuse.h"
+i"RDColor.h"
+i"ImageUtils.h"
+i"Perlin.h"
+i"LedPanel.h"
+i"LedPanelView.h"
+i"StopWatch.h"
+i"Sphere.h"
+i"HaloView.h"
+i"Camera.h"
+
+N/FlatSun/GLView.m
+c000000004DFBC0B30000000000002ECE
+t1308344499
+s11982
+i"GLView.h"
+
+N/FlatSun/Global.h
+c000000004DFA461C00000000000001E4
+t1308247580
+s484
+i<Carbon/Carbon.h>
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/HaloView.h
+c000000004DF6859A0000000000000076
+t1308001690
+s118
+i<Cocoa/Cocoa.h>
+i"LedPanel.h"
+
+N/FlatSun/HaloView.m
+c000000004DF685AC000000000000024B
+t1308001708
+s587
+i"HaloView.h"
+
+N/FlatSun/ImageUtils.h
+c000000004DD827C400000000000004E9
+t1306011588
+s1257
+i<Cocoa/Cocoa.h>
+i"Global.h"
+
+N/FlatSun/ImageUtils.m
+c000000004DD827D80000000000001C37
+t1306011608
+s7223
+i"ImageUtils.h"
+i"Routines.h"
+
+N/FlatSun/LedPanel.h
+c000000004DFBC0D20000000000000744
+t1308344530
+s1860
+i<Cocoa/Cocoa.h>
+i"FlatSun/FSInterface.h"
+i"Routines.h"
+
+N/FlatSun/LedPanel.m
+c000000004DFBC0A00000000000003445
+t1308344480
+s13381
+i"LedPanel.h"
+
+N/FlatSun/LedPanelView.h
+c000000004CD2D4780000000000000079
+t1288885368
+s121
+i<Cocoa/Cocoa.h>
+i"LedPanel.h"
+
+N/FlatSun/LedPanelView.m
+c000000004DDC677C0000000000000250
+t1306290044
+s592
+i"LedPanelView.h"
+
+N/FlatSun/Math2D.h
+c000000004361E6C400000000000000A0
+t1130489540
+s160
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/Math2D.m
+c000000004361E5C400000000000000EA
+t1130489284
+s234
+i"Math2D.h"
+
+N/FlatSun/Noise3DTexture.c
+c000000004BF6F7A00000000000001875
+t1274476448
+s6261
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<OpenGL/gl.h>
+i"Noise3DTexture.h"
+
+N/FlatSun/Noise3DTexture.h
+c000000004BF6D9500000000000000016
+t1274468688
+s22
+
+N/FlatSun/Perlin.frag
+c000000004C028CA20000000000000286
+t1275235490
+s646
+
+N/FlatSun/Perlin.h
+c000000004DFB7B6C0000000000000521
+t1308326764
+s1313
+i"Shader.h"
+i"GLUtils.h"
+i"BlobFinder.h"
+
+N/FlatSun/Perlin.m
+c000000004DFB7FA80000000000001D3D
+t1308327848
+s7485
+i"Perlin.h"
+
+N/FlatSun/Perlin.vert
+c000000004C028CA200000000000001AD
+t1275235490
+s429
+
+N/FlatSun/RDColor.h
+c000000004DFA461C00000000000005B9
+t1308247580
+s1465
+i<Foundation/Foundation.h>
+i"Shader.h"
+i"ReactDiffuse.h"
+i"GLUtils.h"
+
+N/FlatSun/RDColor.m
+c000000004DFA461C00000000000021A5
+t1308247580
+s8613
+i"RDColor.h"
+
+N/FlatSun/RDView.h
+c000000004DE55F5000000000000000FC
+t1306877776
+s252
+i<Cocoa/Cocoa.h>
+i"ReactDiffuse.h"
+i"LedPanel.h"
+
+N/FlatSun/ReactDiffuse.frag
+c000000004DD996CE0000000000000604
+t1306105550
+s1540
+
+N/FlatSun/ReactDiffuse.h
+c000000004DFB77D20000000000000CF9
+t1308325842
+s3321
+i"Shader.h"
+i"Routines.h"
+i"BlobFinder.h"
+i"RDColor.h"
+
+N/FlatSun/ReactDiffuse.m
+c000000004DFBBDDB0000000000005B0F
+t1308343771
+s23311
+i"ReactDiffuse.h"
+
+N/FlatSun/ReactDiffuse.vert
+c000000004CDDC13E0000000000000191
+t1289601342
+s401
+
+N/FlatSun/Routines.h
+c000000004DFB8BE40000000000000217
+t1308330980
+s535
+i<Cocoa/Cocoa.h>
+i<sys/time.h>
+
+N/FlatSun/Routines.m
+c000000004DFB8BE40000000000000741
+t1308330980
+s1857
+i"Routines.h"
+
+N/FlatSun/Shader.h
+c000000004DD9A8720000000000000396
+t1306110066
+s918
+i<Cocoa/Cocoa.h>
+i<OpenGL/gl.h>
+i<OpenGL/glext.h>
+i<OpenGL/glu.h>
+i<OpenGL/OpenGL.h>
+i<GLUT/glut.h>
+i"Noise3DTexture.h"
+i"mat4.h"
+
+N/FlatSun/Shader.m
+c000000004CE01B56000000000000086E
+t1289755478
+s2158
+i"Shader.h"
+
+N/FlatSun/Sphere.h
+c000000004DFBBBB10000000000000949
+t1308343217
+s2377
+i<Cocoa/Cocoa.h>
+i"Types.h"
+i"Math2D.h"
+i"Texture.h"
+i"GLView.h"
+
+N/FlatSun/Sphere.m
+c000000004DFBBD730000000000004E4A
+t1308343667
+s20042
+i"Sphere.h"
+
+N/FlatSun/StopWatch.h
+c000000004C1BED720000000000000299
+t1276898674
+s665
+i<Cocoa/Cocoa.h>
+i<sys/time.h>
+
+N/FlatSun/StopWatch.m
+c000000004C1BEDFA000000000000073E
+t1276898810
+s1854
+i"StopWatch.h"
+i<sys/time.h>
+
+N/FlatSun/Texture.h
+c000000004C06EF2A0000000000000172
+t1275522858
+s370
+i<Cocoa/Cocoa.h>
+i"Types.h"
+i"ReactDiffuse.h"
+
+N/FlatSun/Types.h
+c000000004DE94600000000000000039B
+t1307133440
+s923
+i<Carbon/Carbon.h>
+
+N/FlatSun/build/Debug/FlatSun.app
+t1308344532
+s102
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Info.plist
+t1305772430
+s886
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun
+t1308344532
+s208356
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/PkgInfo
+t1305772430
+s8
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Color.frag
+t1308338589
+s1058
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Color.vert
+t1306885898
+s112
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1305747912
+s92
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/MainMenu.nib
+t1308343724
+s183116
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Perlin.frag
+t1306885898
+s646
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/Perlin.vert
+t1306885898
+s429
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.frag
+t1306885898
+s1540
+
+N/FlatSun/build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.vert
+t1306885898
+s401
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o
+t1308338600
+s61128
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o
+t1308344530
+s27804
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o
+t1308344531
+s59560
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSun.LinkFileList
+c000000004DFBA99D0000000000000696
+t1308338589
+s1686
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o
+t1308344530
+s35932
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o
+t1308338598
+s9356
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o
+t1308344532
+s66220
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o
+t1308344531
+s15200
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o
+t1308338597
+s21736
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o
+t1308344531
+s47884
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o
+t1308344531
+s15240
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o
+t1308338597
+s5992
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o
+t1308338598
+s16296
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o
+t1308338600
+s53828
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o
+t1308338599
+s50496
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o
+t1308343773
+s84180
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o
+t1308338597
+s13148
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o
+t1308338598
+s10132
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o
+t1308343710
+s78828
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o
+t1308338597
+s12600
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o
+t1308338596
+s4792
+
+N/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o
+t1308338598
+s4388
+
+N/FlatSun/main.m
+c000000004DE5552E0000000000000077
+t1306875182
+s119
+i<Cocoa/Cocoa.h>
+
+N/FlatSun/mat4.c
+c000000004463D1920000000000000DEF
+t1147392402
+s3567
+i<math.h>
+i"mat4.h"
+
+N/FlatSun/mat4.h
+c000000004463D1920000000000000A4C
+t1147392402
+s2636
+
+N/Library/Frameworks/dc1394.framework/dc1394
+c000000004DD162220000000000041900
+t1305567778
+s268544
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004FFB88EF00000000000064D0
+t1341884655
+s25808
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004FFB88D400000000021F3CE0
+t1341884628
+s35601632
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FFB88D70000000000006560
+t1341884631
+s25952
+
+N/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004FFB88E600000000005AEB70
+t1341884646
+s5958512
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FFB88DE0000000000942520
+t1341884638
+s9708832
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004FFB89880000000000105760
+t1341884808
+s1070944
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004FFB88E4000000000002E350
+t1341884644
+s189264
+
+N/System/Library/Frameworks/dc1394.framework/dc1394
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-atucxkrpinmeqpaqgmgqxrtddahv/FlatSun_Prefix.pch.gch
+t1306885900
+s2187632
+
+N/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-cyuqumsmtbgqtrgrlpioyyxlrwdx/FlatSun_Prefix.pch.gch
+t1317131955
+s56944432
+
+N/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-dkaktlewumhhjofufiotvwitzlpu/FlatSun_Prefix.pch.gch
+t1317131907
+s56944432
+
+N/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hfbxlorxwsipmtfltoxoeggptnmf/FlatSun_Prefix.pch.gch
+t1305688411
+s56932144
+
+N/var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-efjtoynubluexqcasornmuolbqyi/FlatSun_Prefix.pch.gch
+t1308338591
+s2187632
+
+N/var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch.gch
+t1308338595
+s56903472
+
+N/var/folders/fO/fO19eiD-HCqIv8J+46efDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch
+t1305747916
+s56903472
+
+N/var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch.gch
+t1354686928
+s2187632
+
+N/var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-caolvtjtesliyfgehuqihvseignt/FlatSun_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-grjbjqocqfucxwfhknjagzndehcp/FlatSun_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch
+t1354686933
+s56903472
+
+NFlatSun-Info.plist
+c000000005103682600000000000003F2
+t1359177766
+s1010
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies376379725#376379726#0(0"0(0#1#0"2#0"0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BaseTexture.o /FlatSun/Code/FlatSun/BaseTexture.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379737.725513
+e376379738.032244
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BaseTexture.o
+x/FlatSun/Code/FlatSun/BaseTexture.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /FlatSun/Code/FlatSun/BaseTexture.m376379737#376379738#0(0"0(0#0#35"/FlatSun/Code/FlatSun/BaseTexture.m2#1296"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/BaseTexture.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BaseTexture.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o /FlatSun/BlobFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031399.774887
+e330031400.590459
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o
+x/FlatSun/BlobFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Compile /FlatSun/BlobFinder.m330031399#330031400#0(0"0(0#0#21"/FlatSun/BlobFinder.m4300911832#1155"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/BlobFinder.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o /FlatSun/Code/FlatSun/BlobFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379736.364590
+e376379736.877332
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o
+x/FlatSun/Code/FlatSun/BlobFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /FlatSun/Code/FlatSun/BlobFinder.m376379736#376379736#0(0"0(0#0#34"/FlatSun/Code/FlatSun/BlobFinder.m2#1294"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/BlobFinder.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/BlobFinder.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o /FlatSun/CamView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037330.430157
+e330037330.993388
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o
+x/FlatSun/CamView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Compile /FlatSun/CamView.m330037330#330037330#0(0"0(0#0#18"/FlatSun/CamView.m4300911832#1149"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/CamView.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o /FlatSun/Code/FlatSun/CamView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379733.914595
+e376379734.291322
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o
+x/FlatSun/Code/FlatSun/CamView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /FlatSun/Code/FlatSun/CamView.m376379733#376379734#0(0"0(0#0#31"/FlatSun/Code/FlatSun/CamView.m2#1288"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/CamView.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/CamView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o /FlatSun/Camera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037330.993807
+e330037331.687945
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o
+x/FlatSun/Camera.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/FlatSun/Camera.m: In function '-[Camera useFirstDevice]':
+o/FlatSun/Camera.m:201: warning: implicit declaration of function 'dc1394_capture_schedule_with_runloop'
+o/FlatSun/Camera.m:213: warning: implicit declaration of function 'dc1394_capture_set_callback'
+lSLF07#2@25"Compile /FlatSun/Camera.m330037330#330037331#0(258"/FlatSun/Camera.m: In function '-[Camera useFirstDevice]':/FlatSun/Camera.m:201: warning: implicit declaration of function 'dc1394_capture_schedule_with_runloop'/FlatSun/Camera.m:213: warning: implicit declaration of function 'dc1394_capture_set_callback'2(22@71"Implicit declaration of function 'dc1394_capture_schedule_with_runloop'330037331#59#104#0(6@17"/FlatSun/Camera.m330022526#201#0#201#0#36"implicit declaration of function '*'0(22@62"Implicit declaration of function 'dc1394_capture_set_callback'330037331#163#95#0(6@17"/FlatSun/Camera.m330022526#213#0#213#0#36"implicit declaration of function '*'0(0#0#17"/FlatSun/Camera.m4300911832#1147"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/Camera.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o /FlatSun/Code/FlatSun/Camera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379734.726171
+e376379735.255960
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o
+x/FlatSun/Code/FlatSun/Camera.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Camera.m376379734#376379735#0(0"0(0#0#30"/FlatSun/Code/FlatSun/Camera.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Camera.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Camera.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ColorView.o /FlatSun/Code/FlatSun/ColorView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327473473.144785
+e327473473.551571
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ColorView.o
+x/FlatSun/Code/FlatSun/ColorView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /FlatSun/Code/FlatSun/ColorView.m327473473#327473473#0(0"0(0#0#33"/FlatSun/Code/FlatSun/ColorView.m8619677120#1296"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hfbxlorxwsipmtfltoxoeggptnmf/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/ColorView.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ColorView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Dimmer.o /FlatSun/Code/FlatSun/Dimmer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379737.535774
+e376379737.725402
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Dimmer.o
+x/FlatSun/Code/FlatSun/Dimmer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/FlatSun/Code/FlatSun/Dimmer.m: In function '-[Dimmer awakeFromNib]':
+o/FlatSun/Code/FlatSun/Dimmer.m:25: warning: 'Dimmer' may not respond to '-startTimer'
+o/FlatSun/Code/FlatSun/Dimmer.m:25: warning: (Messages without a matching method signature
+o/FlatSun/Code/FlatSun/Dimmer.m:25: warning: will be assumed to return 'id' and accept
+o/FlatSun/Code/FlatSun/Dimmer.m:25: warning: '...' as arguments.)
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Dimmer.m376379737#376379737#0(397"/FlatSun/Code/FlatSun/Dimmer.m: In function '-[Dimmer awakeFromNib]':/FlatSun/Code/FlatSun/Dimmer.m:25: warning: 'Dimmer' may not respond to '-startTimer'/FlatSun/Code/FlatSun/Dimmer.m:25: warning: (Messages without a matching method signature/FlatSun/Code/FlatSun/Dimmer.m:25: warning: will be assumed to return 'id' and accept/FlatSun/Code/FlatSun/Dimmer.m:25: warning: '...' as arguments.)2(22@41"'Dimmer' may not respond to '-startTimer'376379737#70#86#0(6@30"/FlatSun/Code/FlatSun/Dimmer.m358132257#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)376379737#156#90#0(6@30"/FlatSun/Code/FlatSun/Dimmer.m358132257#25#0#25#0#0"0(0#0#30"/FlatSun/Code/FlatSun/Dimmer.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Dimmer.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Dimmer.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o /FlatSun/Code/FlatSun/FlatSunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379733.787654
+e376379734.249733
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o
+x/FlatSun/Code/FlatSun/FlatSunAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m: In function '-[FlatSunAppDelegate applicationDidFinishLaunching:]':
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: 'FlatSunAppDelegate' may not respond to '-startSerialTimer'
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: (Messages without a matching method signature
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: will be assumed to return 'id' and accept
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: '...' as arguments.)
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m: In function '-[FlatSunAppDelegate shutDownBtnPressed:]':
+o/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:278: warning: 'FlatSunAppDelegate' may not respond to '-sendSystemAppleEvent:'
+lSLF07#2@50"Compile /FlatSun/Code/FlatSun/FlatSunAppDelegate.m376379733#376379734#0(732"/FlatSun/Code/FlatSun/FlatSunAppDelegate.m: In function '-[FlatSunAppDelegate applicationDidFinishLaunching:]':/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: 'FlatSunAppDelegate' may not respond to '-startSerialTimer'/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: (Messages without a matching method signature/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: will be assumed to return 'id' and accept/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:202: warning: '...' as arguments.)/FlatSun/Code/FlatSun/FlatSunAppDelegate.m: In function '-[FlatSunAppDelegate shutDownBtnPressed:]':/FlatSun/Code/FlatSun/FlatSunAppDelegate.m:278: warning: 'FlatSunAppDelegate' may not respond to '-sendSystemAppleEvent:'3(22@59"'FlatSunAppDelegate' may not respond to '-startSerialTimer'376379734#112#117#0(6@42"/FlatSun/Code/FlatSun/FlatSunAppDelegate.m358134054#202#0#202#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)376379734#229#103#0(6@42"/FlatSun/Code/FlatSun/FlatSunAppDelegate.m358134054#202#0#202#0#0"0(22@64"'FlatSunAppDelegate' may not respond to '-sendSystemAppleEvent:'376379734#610#122#0(6@42"/FlatSun/Code/FlatSun/FlatSunAppDelegate.m358134054#278#0#278#0#26"'*' may not respond to '*'0(0#0#42"/FlatSun/Code/FlatSun/FlatSunAppDelegate.m2#1310"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/FlatSunAppDelegate.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o /FlatSun/FlatSunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037330.428902
+e330037331.026899
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o
+x/FlatSun/FlatSunAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /FlatSun/FlatSunAppDelegate.m330037330#330037331#0(0"0(0#0#29"/FlatSun/FlatSunAppDelegate.m4300911832#1171"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/FlatSunAppDelegate.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSunAppDelegate.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o /FlatSun/Code/FlatSun/GLUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379735.256065
+e376379735.402776
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o
+x/FlatSun/Code/FlatSun/GLUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /FlatSun/Code/FlatSun/GLUtils.m376379735#376379735#0(0"0(0#0#31"/FlatSun/Code/FlatSun/GLUtils.m2#1288"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/GLUtils.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o /FlatSun/GLUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031398.231043
+e330031398.417968
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o
+x/FlatSun/GLUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Compile /FlatSun/GLUtils.m330031398#330031398#0(0"0(0#0#18"/FlatSun/GLUtils.m4300911832#1149"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/GLUtils.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLUtils.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o /FlatSun/Code/FlatSun/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379735.906485
+e376379736.364486
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o
+x/FlatSun/Code/FlatSun/GLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/GLView.m376379735#376379736#0(0"0(0#0#30"/FlatSun/Code/FlatSun/GLView.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/GLView.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o /FlatSun/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037331.496565
+e330037332.099720
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o
+x/FlatSun/GLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/FlatSun/GLView.m:561: warning: incomplete implementation of class 'GLView'
+o/FlatSun/GLView.m:561: warning: method definition for '-setSeason:' not found
+lSLF07#2@25"Compile /FlatSun/GLView.m330037331#330037332#0(154"/FlatSun/GLView.m:561: warning: incomplete implementation of class 'GLView'/FlatSun/GLView.m:561: warning: method definition for '-setSeason:' not found2(22@43"Incomplete implementation of class 'GLView'330037331#0#76#0(6@17"/FlatSun/GLView.m330037299#561#0#561#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-setSeason:' not found330037331#76#78#0(6@17"/FlatSun/GLView.m330037299#561#0#561#0#35"method definition for '*' not found0(0#0#17"/FlatSun/GLView.m4300911832#1147"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/GLView.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/GLView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o /FlatSun/Code/FlatSun/HaloView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379736.877434
+e376379737.200220
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o
+x/FlatSun/Code/FlatSun/HaloView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /FlatSun/Code/FlatSun/HaloView.m376379736#376379737#0(0"0(0#0#32"/FlatSun/Code/FlatSun/HaloView.m2#1290"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/HaloView.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o /FlatSun/HaloView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037331.688276
+e330037331.878701
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o
+x/FlatSun/HaloView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Compile /FlatSun/HaloView.m330037331#330037331#0(0"0(0#0#19"/FlatSun/HaloView.m4300911832#1151"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/HaloView.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/HaloView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ITable.o /FlatSun/Code/FlatSun/ITable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379733.432362
+e376379733.914364
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ITable.o
+x/FlatSun/Code/FlatSun/ITable.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/ITable.m376379733#376379733#0(0"0(0#0#30"/FlatSun/Code/FlatSun/ITable.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/ITable.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ITable.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o /FlatSun/Code/FlatSun/ImageUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379734.291424
+e376379734.726062
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o
+x/FlatSun/Code/FlatSun/ImageUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /FlatSun/Code/FlatSun/ImageUtils.m376379734#376379734#0(0"0(0#0#34"/FlatSun/Code/FlatSun/ImageUtils.m2#1294"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/ImageUtils.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o /FlatSun/ImageUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031397.134615
+e330031397.741384
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o
+x/FlatSun/ImageUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Compile /FlatSun/ImageUtils.m330031397#330031397#0(0"0(0#0#21"/FlatSun/ImageUtils.m4300911832#1155"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/ImageUtils.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ImageUtils.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o /FlatSun/Code/FlatSun/LedPanel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379734.735431
+e376379735.186542
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o
+x/FlatSun/Code/FlatSun/LedPanel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/FlatSun/Code/FlatSun/LedPanel.m: In function '-[LedPanel setDimmer:]':
+o/FlatSun/Code/FlatSun/LedPanel.m:648: warning: 'FSInterface' may not respond to '-setBrightnessForPixels:ForHalo:'
+o/FlatSun/Code/FlatSun/LedPanel.m:648: warning: (Messages without a matching method signature
+o/FlatSun/Code/FlatSun/LedPanel.m:648: warning: will be assumed to return 'id' and accept
+o/FlatSun/Code/FlatSun/LedPanel.m:648: warning: '...' as arguments.)
+lSLF07#2@40"Compile /FlatSun/Code/FlatSun/LedPanel.m376379734#376379735#0(437"/FlatSun/Code/FlatSun/LedPanel.m: In function '-[LedPanel setDimmer:]':/FlatSun/Code/FlatSun/LedPanel.m:648: warning: 'FSInterface' may not respond to '-setBrightnessForPixels:ForHalo:'/FlatSun/Code/FlatSun/LedPanel.m:648: warning: (Messages without a matching method signature/FlatSun/Code/FlatSun/LedPanel.m:648: warning: will be assumed to return 'id' and accept/FlatSun/Code/FlatSun/LedPanel.m:648: warning: '...' as arguments.)2(22@67"'FSInterface' may not respond to '-setBrightnessForPixels:ForHalo:'376379735#72#115#0(6@32"/FlatSun/Code/FlatSun/LedPanel.m358132267#648#0#648#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)376379735#187#93#0(6@32"/FlatSun/Code/FlatSun/LedPanel.m358132267#648#0#648#0#0"0(0#0#32"/FlatSun/Code/FlatSun/LedPanel.m2#1290"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/LedPanel.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o /FlatSun/LedPanel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037331.027005
+e330037331.322631
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o
+x/FlatSun/LedPanel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Compile /FlatSun/LedPanel.m330037331#330037331#0(0"0(0#0#19"/FlatSun/LedPanel.m4300911832#1151"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/LedPanel.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanel.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o /FlatSun/Code/FlatSun/LedPanelView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379735.186669
+e376379735.525394
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o
+x/FlatSun/Code/FlatSun/LedPanelView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /FlatSun/Code/FlatSun/LedPanelView.m376379735#376379735#0(0"0(0#0#36"/FlatSun/Code/FlatSun/LedPanelView.m2#1298"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/LedPanelView.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o /FlatSun/LedPanelView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330037331.322737
+e330037331.496021
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o
+x/FlatSun/LedPanelView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Compile /FlatSun/LedPanelView.m330037331#330037331#0(0"0(0#0#23"/FlatSun/LedPanelView.m4300911832#1159"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/LedPanelView.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/LedPanelView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o /FlatSun/Code/FlatSun/Math2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379734.414338
+e376379734.559695
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o
+x/FlatSun/Code/FlatSun/Math2D.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Math2D.m376379734#376379734#0(0"0(0#0#30"/FlatSun/Code/FlatSun/Math2D.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Math2D.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o /FlatSun/Math2D.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031397.350343
+e330031397.507852
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o
+x/FlatSun/Math2D.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Compile /FlatSun/Math2D.m330031397#330031397#0(0"0(0#0#17"/FlatSun/Math2D.m4300911832#1147"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/Math2D.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Math2D.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o /FlatSun/Code/FlatSun/Noise3DTexture.c normal i386 c com.apple.compilers.gcc.4_2
+s376379735.684550
+e376379735.792090
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o
+x/FlatSun/Code/FlatSun/Noise3DTexture.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /FlatSun/Code/FlatSun/Noise3DTexture.c376379735#376379735#0(0"0(0#0#38"/FlatSun/Code/FlatSun/Noise3DTexture.c2#1292"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Noise3DTexture.c -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o /FlatSun/Noise3DTexture.c normal i386 c com.apple.compilers.gcc.4_2
+s330031398.687037
+e330031398.829348
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o
+x/FlatSun/Noise3DTexture.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Compile /FlatSun/Noise3DTexture.c330031398#330031398#0(0"0(0#0#25"/FlatSun/Noise3DTexture.c4300911832#1153"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-efjtoynubluexqcasornmuolbqyi/FlatSun_Prefix.pch -c /FlatSun/Noise3DTexture.c -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Noise3DTexture.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o /FlatSun/Code/FlatSun/Perlin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379736.357211
+e376379736.768409
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o
+x/FlatSun/Code/FlatSun/Perlin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Perlin.m376379736#376379736#0(0"0(0#0#30"/FlatSun/Code/FlatSun/Perlin.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Perlin.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o /FlatSun/Perlin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031399.631409
+e330031400.409954
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o
+x/FlatSun/Perlin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Compile /FlatSun/Perlin.m330031399#330031400#0(0"0(0#0#17"/FlatSun/Perlin.m4300911832#1147"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/Perlin.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Perlin.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o /FlatSun/Code/FlatSun/RDColor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379735.402882
+e376379735.906297
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o
+x/FlatSun/Code/FlatSun/RDColor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /FlatSun/Code/FlatSun/RDColor.m376379735#376379735#0(0"0(0#0#31"/FlatSun/Code/FlatSun/RDColor.m2#1288"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/RDColor.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o /FlatSun/RDColor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031398.418060
+e330031399.064993
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o
+x/FlatSun/RDColor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Compile /FlatSun/RDColor.m330031398#330031399#0(0"0(0#0#18"/FlatSun/RDColor.m4300911832#1149"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/RDColor.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDColor.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDView.o /FlatSun/Code/FlatSun/RDView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327471826.888069
+e327471827.481590
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDView.o
+x/FlatSun/Code/FlatSun/RDView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/RDView.m327471826#327471827#0(0"0(0#0#30"/FlatSun/Code/FlatSun/RDView.m8625235008#1290"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hfbxlorxwsipmtfltoxoeggptnmf/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/RDView.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/RDView.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o /FlatSun/Code/FlatSun/ReactDiffuse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379735.834089
+e376379736.357108
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o
+x/FlatSun/Code/FlatSun/ReactDiffuse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /FlatSun/Code/FlatSun/ReactDiffuse.m376379735#376379736#0(0"0(0#0#36"/FlatSun/Code/FlatSun/ReactDiffuse.m2#1298"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/ReactDiffuse.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o /FlatSun/ReactDiffuse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330036572.194340
+e330036573.262137
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o
+x/FlatSun/ReactDiffuse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Compile /FlatSun/ReactDiffuse.m330036572#330036573#0(0"0(0#0#23"/FlatSun/ReactDiffuse.m4300911832#1159"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/ReactDiffuse.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/ReactDiffuse.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o /FlatSun/Code/FlatSun/Routines.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379734.249833
+e376379734.410240
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o
+x/FlatSun/Code/FlatSun/Routines.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /FlatSun/Code/FlatSun/Routines.m376379734#376379734#0(0"0(0#0#32"/FlatSun/Code/FlatSun/Routines.m2#1290"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Routines.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o /FlatSun/Routines.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031397.120551
+e330031397.350244
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o
+x/FlatSun/Routines.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Compile /FlatSun/Routines.m330031397#330031397#0(0"0(0#0#19"/FlatSun/Routines.m4300911832#1151"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/Routines.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Routines.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Serial.o /FlatSun/Code/FlatSun/Serial.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379737.625157
+e376379737.808917
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Serial.o
+x/FlatSun/Code/FlatSun/Serial.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/FlatSun/Code/FlatSun/Serial.m: In function '-[Serial pollRx]':
+o/FlatSun/Code/FlatSun/Serial.m:127: warning: pointer targets in passing argument 1 of 'stringWithCString:length:' differ in signedness
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Serial.m376379737#376379737#0(199"/FlatSun/Code/FlatSun/Serial.m: In function '-[Serial pollRx]':/FlatSun/Code/FlatSun/Serial.m:127: warning: pointer targets in passing argument 1 of 'stringWithCString:length:' differ in signedness1(22@89"Pointer targets in passing argument 1 of 'stringWithCString:length:' differ in signedness376379737#64#135#0(6@30"/FlatSun/Code/FlatSun/Serial.m358132256#127#0#127#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#30"/FlatSun/Code/FlatSun/Serial.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Serial.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Serial.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Settings.o /FlatSun/Code/FlatSun/Settings.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379737.340482
+e376379737.535666
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Settings.o
+x/FlatSun/Code/FlatSun/Settings.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /FlatSun/Code/FlatSun/Settings.m376379737#376379737#0(0"0(0#0#32"/FlatSun/Code/FlatSun/Settings.m2#1290"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Settings.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Settings.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o /FlatSun/Code/FlatSun/Shader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379735.525492
+e376379735.684445
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o
+x/FlatSun/Code/FlatSun/Shader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Shader.m376379735#376379735#0(0"0(0#0#30"/FlatSun/Code/FlatSun/Shader.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Shader.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o /FlatSun/Shader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031398.472252
+e330031398.686941
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o
+x/FlatSun/Shader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Compile /FlatSun/Shader.m330031398#330031398#0(0"0(0#0#17"/FlatSun/Shader.m4300911832#1147"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/Shader.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Shader.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o /FlatSun/Code/FlatSun/Sphere.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379736.768541
+e376379737.340383
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o
+x/FlatSun/Code/FlatSun/Sphere.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /FlatSun/Code/FlatSun/Sphere.m376379736#376379737#0(0"0(0#0#30"/FlatSun/Code/FlatSun/Sphere.m2#1286"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Sphere.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o /FlatSun/Sphere.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330036509.390224
+e330036510.191229
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o
+x/FlatSun/Sphere.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Compile /FlatSun/Sphere.m330036509#330036510#0(0"0(0#0#17"/FlatSun/Sphere.m4300911832#1147"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/Sphere.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Sphere.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o /FlatSun/Code/FlatSun/StopWatch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379734.559786
+e376379734.735333
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o
+x/FlatSun/Code/FlatSun/StopWatch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /FlatSun/Code/FlatSun/StopWatch.m376379734#376379734#0(0"0(0#0#33"/FlatSun/Code/FlatSun/StopWatch.m2#1292"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/StopWatch.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o /FlatSun/StopWatch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031397.507947
+e330031397.714391
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o
+x/FlatSun/StopWatch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Compile /FlatSun/StopWatch.m330031397#330031397#0(0"0(0#0#20"/FlatSun/StopWatch.m4300911832#1153"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/StopWatch.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/StopWatch.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Texture.o /FlatSun/Code/FlatSun/Texture.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379737.200321
+e376379737.625053
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Texture.o
+x/FlatSun/Code/FlatSun/Texture.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /FlatSun/Code/FlatSun/Texture.m376379737#376379737#0(0"0(0#0#31"/FlatSun/Code/FlatSun/Texture.m2#1288"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/Texture.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/Texture.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/UdpSocket.o /FlatSun/Code/FlatSun/UdpSocket.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379733.433588
+e376379733.661237
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/UdpSocket.o
+x/FlatSun/Code/FlatSun/UdpSocket.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /FlatSun/Code/FlatSun/UdpSocket.m376379733#376379733#0(0"0(0#0#33"/FlatSun/Code/FlatSun/UdpSocket.m2#1292"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/UdpSocket.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/UdpSocket.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o /FlatSun/Code/FlatSun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379733.661338
+e376379733.787549
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o
+x/FlatSun/Code/FlatSun/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Compile /FlatSun/Code/FlatSun/main.m376379733#376379733#0(0"0(0#0#28"/FlatSun/Code/FlatSun/main.m2#1282"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/main.m -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o /FlatSun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031396.132021
+e330031396.323966
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o
+x/FlatSun/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@23"Compile /FlatSun/main.m330031396#330031396#0(0"0(0#0#15"/FlatSun/main.m4300911832#1143"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch -c /FlatSun/main.m -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o /FlatSun/Code/FlatSun/mat4.c normal i386 c com.apple.compilers.gcc.4_2
+s376379735.792191
+e376379735.833980
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o
+x/FlatSun/Code/FlatSun/mat4.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Compile /FlatSun/Code/FlatSun/mat4.c376379735#376379735#0(0"0(0#0#28"/FlatSun/Code/FlatSun/mat4.c2#1272"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch -c /FlatSun/Code/FlatSun/mat4.c -o /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o0#
+
+CCompileC build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o /FlatSun/mat4.c normal i386 c com.apple.compilers.gcc.4_2
+s330031398.829445
+e330031398.882132
+r1
+xCompileC
+xbuild/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o
+x/FlatSun/mat4.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@23"Compile /FlatSun/mat4.c330031398#330031398#0(0"0(0#0#15"/FlatSun/mat4.c4300911832#1133"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -include /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-efjtoynubluexqcasornmuolbqyi/FlatSun_Prefix.pch -c /FlatSun/mat4.c -o /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/mat4.o0#
+
+CCompileXIB /FlatSun/Code/FlatSun/English.lproj/MainMenu.xib
+s376379726.191758
+e376379727.805733
+r0
+xCompileXIB
+x/FlatSun/Code/FlatSun/English.lproj/MainMenu.xib
+odyld: lazy symbol binding failed: Symbol not found: _dispatch_get_concurrent_queue
+o  Referenced from: /Developer/usr/bin/../../Library/Frameworks//InterfaceBuilderKit.framework/Versions/A/InterfaceBuilderKit
+o  Expected in: /usr/lib/libSystem.B.dylib
+o
+odyld: Symbol not found: _dispatch_get_concurrent_queue
+o  Referenced from: /Developer/usr/bin/../../Library/Frameworks//InterfaceBuilderKit.framework/Versions/A/InterfaceBuilderKit
+o  Expected in: /usr/lib/libSystem.B.dylib
+o
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib376379726#376379727#0(532"dyld: lazy symbol binding failed: Symbol not found: _dispatch_get_concurrent_queue  Referenced from: /Developer/usr/bin/../../Library/Frameworks//InterfaceBuilderKit.framework/Versions/A/InterfaceBuilderKit  Expected in: /usr/lib/libSystem.B.dylibdyld: Symbol not found: _dispatch_get_concurrent_queue  Referenced from: /Developer/usr/bin/../../Library/Frameworks//InterfaceBuilderKit.framework/Versions/A/InterfaceBuilderKit  Expected in: /usr/lib/libSystem.B.dylibCommand /Developer/usr/bin/ibtool failed with exit code 51(4@57"Command /Developer/usr/bin/ibtool failed with exit code 5376379727#18446744073709551615#0#0(1@0"0(0#0#48"/FlatSun/Code/FlatSun/English.lproj/MainMenu.xib2#276"    cd /FlatSun/Code/FlatSun    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/MainMenu.nib /FlatSun/Code/FlatSun/English.lproj/MainMenu.xib5#
+
+CCompileXIB /FlatSun/English.lproj/MainMenu.xib
+s330036522.597603
+e330036524.192622
+r1
+xCompileXIB
+x/FlatSun/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib330036522#330036524#0(0"0(0#0#35"/FlatSun/English.lproj/MainMenu.xib4300911832#237"    cd /FlatSun    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/MainMenu.nib /FlatSun/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s376379726.102622
+e376379726.575338
+r1
+xCopyStringsFile
+x/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings376379726#376379726#0(0"0(0#0#53"/FlatSun/Code/FlatSun/English.lproj/InfoPlist.strings2#331"    cd /FlatSun/Code/FlatSun    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /FlatSun/build/Debug/FlatSun.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/Color.frag Color.frag
+s376379726.095940
+e376379726.108780
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/Color.frag
+xColor.frag
+lSLF07#2@15"Copy Color.frag376379726#376379726#0(0"0(0#0#32"/FlatSun/Code/FlatSun/Color.frag2#275"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/Color.frag /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/Color.vert Color.vert
+s376379726.096515
+e376379726.118648
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/Color.vert
+xColor.vert
+lSLF07#2@15"Copy Color.vert376379726#376379726#0(0"0(0#0#32"/FlatSun/Code/FlatSun/Color.vert2#275"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/Color.vert /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/Perlin.frag Perlin.frag
+s376379726.099269
+e376379726.159800
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/Perlin.frag
+xPerlin.frag
+lSLF07#2@16"Copy Perlin.frag376379726#376379726#0(0"0(0#0#33"/FlatSun/Code/FlatSun/Perlin.frag2#276"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/Perlin.frag /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/Perlin.vert Perlin.vert
+s376379726.100927
+e376379726.191642
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/Perlin.vert
+xPerlin.vert
+lSLF07#2@16"Copy Perlin.vert376379726#376379726#0(0"0(0#0#33"/FlatSun/Code/FlatSun/Perlin.vert2#276"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/Perlin.vert /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.frag ReactDiffuse.frag
+s376379726.097124
+e376379726.120297
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.frag
+xReactDiffuse.frag
+lSLF07#2@22"Copy ReactDiffuse.frag376379726#376379726#0(0"0(0#0#39"/FlatSun/Code/FlatSun/ReactDiffuse.frag2#282"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/ReactDiffuse.frag /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.vert ReactDiffuse.vert
+s376379726.097693
+e376379726.114692
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/ReactDiffuse.vert
+xReactDiffuse.vert
+lSLF07#2@22"Copy ReactDiffuse.vert376379726#376379726#0(0"0(0#0#39"/FlatSun/Code/FlatSun/ReactDiffuse.vert2#282"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/ReactDiffuse.vert /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/ShutDown.aiff ShutDown.aiff
+s376379726.578334
+e376379726.605151
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/ShutDown.aiff
+xShutDown.aiff
+lSLF07#2@18"Copy ShutDown.aiff376379726#376379726#0(0"0(0#0#35"/FlatSun/Code/FlatSun/ShutDown.aiff2#278"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/ShutDown.aiff /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/Sleep.aiff Sleep.aiff
+s376379726.581922
+e376379726.608748
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/Sleep.aiff
+xSleep.aiff
+lSLF07#2@15"Copy Sleep.aiff376379726#376379726#0(0"0(0#0#32"/FlatSun/Code/FlatSun/Sleep.aiff2#275"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/Sleep.aiff /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/StartUp.aiff StartUp.aiff
+s376379726.580137
+e376379726.615621
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/StartUp.aiff
+xStartUp.aiff
+lSLF07#2@17"Copy StartUp.aiff376379726#376379726#0(0"0(0#0#34"/FlatSun/Code/FlatSun/StartUp.aiff2#277"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/StartUp.aiff /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/Sun.icns Sun.icns
+s376379726.576406
+e376379726.595674
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/Sun.icns
+xSun.icns
+lSLF07#2@13"Copy Sun.icns376379726#376379726#0(0"0(0#0#30"/FlatSun/Code/FlatSun/Sun.icns2#273"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/Sun.icns /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun.gif sun.gif
+s376379726.575534
+e376379726.589164
+r1
+xCpResource
+xbuild/Debug/FlatSun.app/Contents/Resources/sun.gif
+xsun.gif
+lSLF07#2@12"Copy sun.gif376379726#376379726#0(0"0(0#0#29"/FlatSun/Code/FlatSun/sun.gif2#272"    cd /FlatSun/Code/FlatSun    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /FlatSun/Code/FlatSun/sun.gif /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Resources0#
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun1.jpg sun1.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun2.jpg sun2.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun3.jpg sun3.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun4.jpg sun4.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun5.jpg sun5.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun6.jpg sun6.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun7.jpg sun7.jpg
+r0
+
+CCpResource build/Debug/FlatSun.app/Contents/Resources/sun8.jpg sun8.jpg
+r0
+
+CLd /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun normal i386
+s376379738.032345
+e376379738.116723
+r1
+xLd
+x/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun
+xnormal
+xi386
+lSLF07#2@73"Link /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun376379738#376379738#0(0"0(0#0#0"2#710"    cd /FlatSun/Code/FlatSun    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/FlatSun/Code/FlatSun/build/Debug -L/FlatSun/Code/FlatSun -F/FlatSun/Code/FlatSun/build/Debug -filelist /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSun.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework AppKit -framework CoreData -framework Foundation -framework dc1394 -framework OpenGL -framework FlatSun -framework GLUT -framework Accelerate -framework QuickTime -framework CoreServices -framework Carbon -framework IOKit -o /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun0#
+
+CLd /FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun normal i386
+s330037332.099899
+e330037332.339006
+r1
+xLd
+x/FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun
+xnormal
+xi386
+lSLF07#2@60"Link /FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun330037332#330037332#0(0"0(0#0#0"4300911832#573"    cd /FlatSun    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/FlatSun/build/Debug -L/FlatSun -F/FlatSun/build/Debug -filelist /FlatSun/build/FlatSun.build/Debug/FlatSun.build/Objects-normal/i386/FlatSun.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework AppKit -framework CoreData -framework Foundation -framework dc1394 -framework OpenGL -framework FlatSun -framework GLUT -framework Accelerate -framework QuickTime -o /FlatSun/build/Debug/FlatSun.app/Contents/MacOS/FlatSun0#
+
+CProcessInfoPlistFile /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Info.plist FlatSun-Info.plist
+s376379726.064377
+e376379726.095861
+r1
+xProcessInfoPlistFile
+x/FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Info.plist
+xFlatSun-Info.plist
+lSLF07#2@26"Process FlatSun-Info.plist376379726#376379726#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun-Info.plist2#259"    cd /FlatSun/Code/FlatSun    builtin-infoPlistUtility FlatSun-Info.plist -genpkginfo /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /FlatSun/Code/FlatSun/build/Debug/FlatSun.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /FlatSun/build/Debug/FlatSun.app/Contents/Info.plist FlatSun-Info.plist
+r0
+
+CProcessPCH /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-atucxkrpinmeqpaqgmgqxrtddahv/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s328578699.995417
+e328578700.046204
+r1
+xProcessPCH
+x/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-atucxkrpinmeqpaqgmgqxrtddahv/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch328578699#328578700#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun_Prefix.pch8626831808#1201"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/Code/FlatSun/FlatSun_Prefix.pch -o /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-atucxkrpinmeqpaqgmgqxrtddahv/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-cyuqumsmtbgqtrgrlpioyyxlrwdx/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338824753.050338
+e338824755.449770
+r1
+xProcessPCH
+x/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-cyuqumsmtbgqtrgrlpioyyxlrwdx/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch338824753#338824755#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun_Prefix.pch8604343424#1221"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/Code/FlatSun/FlatSun_Prefix.pch -o /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-cyuqumsmtbgqtrgrlpioyyxlrwdx/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-dkaktlewumhhjofufiotvwitzlpu/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338824701.209002
+e338824707.750009
+r1
+xProcessPCH
+x/var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-dkaktlewumhhjofufiotvwitzlpu/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch338824701#338824707#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun_Prefix.pch7524799708069131264#1226"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/Code/FlatSun/FlatSun_Prefix.pch -o /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-dkaktlewumhhjofufiotvwitzlpu/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/It/ItIRkQ9jG6GiVwNb+5qmjU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hfbxlorxwsipmtfltoxoeggptnmf/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-efjtoynubluexqcasornmuolbqyi/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s330031391.414772
+e330031391.577429
+r1
+xProcessPCH
+x/var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-efjtoynubluexqcasornmuolbqyi/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch330031391#330031391#0(0"0(0#0#27"/FlatSun/FlatSun_Prefix.pch4300911832#1071"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/FlatSun_Prefix.pch -o /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-efjtoynubluexqcasornmuolbqyi/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s330031391.413756
+e330031396.131857
+r1
+xProcessPCH
+x/var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch330031391#330031396#0(0"0(0#0#27"/FlatSun/FlatSun_Prefix.pch4300911832#1081"    cd /FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/build/Debug -I/FlatSun/build/Debug/include -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/FlatSun_Prefix.pch -o /var/folders/Qd/QdNvWc08FXS1nFR6IM+hUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-guefhwfeutbbmseyytuxnqxuewip/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/fO/fO19eiD-HCqIv8J+46efDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327440713.052895
+e327440716.328851
+r1
+xProcessPCH
+x/var/folders/fO/fO19eiD-HCqIv8J+46efDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch327440713#327440716#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun_Prefix.pch4300911832#1211"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/Code/FlatSun/FlatSun_Prefix.pch -o /var/folders/fO/fO19eiD-HCqIv8J+46efDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s376379727.806801
+e376379728.170646
+r1
+xProcessPCH
+x/var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch376379727#376379728#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun_Prefix.pch2#1197"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/Code/FlatSun/FlatSun_Prefix.pch -o /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-aeqnjcfqsuswexfvoohavczgxsic/FlatSun_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-caolvtjtesliyfgehuqihvseignt/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-grjbjqocqfucxwfhknjagzndehcp/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch FlatSun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s376379727.805884
+e376379733.432146
+r1
+xProcessPCH
+x/var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch
+xFlatSun_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile FlatSun_Prefix.pch376379727#376379733#0(0"0(0#0#40"/FlatSun/Code/FlatSun/FlatSun_Prefix.pch2#1207"    cd /FlatSun/Code/FlatSun    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -mmacosx-version-min=10.6 -gdwarf-2 -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-generated-files.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-own-target-headers.hmap -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-all-target-headers.hmap -iquote /FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/FlatSun-project-headers.hmap -F/FlatSun/Code/FlatSun/build/Debug -I/FlatSun/Code/FlatSun/build/Debug/include -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources/i386 -I/FlatSun/Code/FlatSun/build/FlatSun.build/Debug/FlatSun.build/DerivedSources -c /FlatSun/Code/FlatSun/FlatSun_Prefix.pch -o /var/folders/vm/454f96r518z766rbcpxnj9tc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FlatSun_Prefix-hbemuwizcebxzigxofhwgtszwwiw/FlatSun_Prefix.pch.gch0#
+
+CTouch /FlatSun/Code/FlatSun/build/Debug/FlatSun.app
+s338827044.774916
+e338827044.778469
+r1
+xTouch
+x/FlatSun/Code/FlatSun/build/Debug/FlatSun.app
+lSLF07#2@51"Touch /FlatSun/Code/FlatSun/build/Debug/FlatSun.app338827044#338827044#0(0"0(0#0#0"8615217760#97"    cd /FlatSun/Code/FlatSun    /usr/bin/touch -c /FlatSun/Code/FlatSun/build/Debug/FlatSun.app0#
+
+CTouch /FlatSun/build/Debug/FlatSun.app
+s330037332.339103
+e330037332.341678
+r1
+xTouch
+x/FlatSun/build/Debug/FlatSun.app
+lSLF07#2@38"Touch /FlatSun/build/Debug/FlatSun.app330037332#330037332#0(0"0(0#0#0"4300911832#71"    cd /FlatSun    /usr/bin/touch -c /FlatSun/build/Debug/FlatSun.app0#
+

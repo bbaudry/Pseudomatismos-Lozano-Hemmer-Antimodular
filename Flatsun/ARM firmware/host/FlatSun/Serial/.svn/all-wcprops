@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial
+END
+AMSDKCompatibility.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSDKCompatibility.h
+END
+AMSerialErrors.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialErrors.h
+END
+AMSerialPortList.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPortList.h
+END
+AMSerialPortList_Deprecated.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPortList_Deprecated.h
+END
+AMStandardEnumerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMStandardEnumerator.h
+END
+AMSerialPortAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPortAdditions.h
+END
+AMSerialPort.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPort.h
+END
+AMSerialPort_Deprecated.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPort_Deprecated.h
+END
+AMSerialPortList.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPortList.m
+END
+AMSerialPortList_Deprecated.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPortList_Deprecated.m
+END
+AMStandardEnumerator.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMStandardEnumerator.m
+END
+AMSerialPortAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPortAdditions.m
+END
+AMSerialPort.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPort.m
+END
+AMSerialPort_Deprecated.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/proj/!svn/ver/484/Antimodular/FlatSun/host/FlatSun/Serial/AMSerialPort_Deprecated.m
+END

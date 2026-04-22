@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		220D1B7D13A6BCAC0080BD4C /* HaloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 220D1B7C13A6BCAC0080BD4C /* HaloView.m */; };
+		2225699213AD50AB00EA00DD /* Texture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225699113AD50AB00EA00DD /* Texture.m */; };
+		2225699413AD510200EA00DD /* sun.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2225699313AD510200EA00DD /* sun.gif */; };
+		223DFAB71383413B00506ED6 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DFAB61383413B00506ED6 /* Camera.m */; };
+		2248C8FC13837CEC00EB0B52 /* LedPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248C8FB13837CEC00EB0B52 /* LedPanel.m */; };
+		2248C9621383A0F600EB0B52 /* LedPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248C9611383A0F600EB0B52 /* LedPanelView.m */; };
+		226018181388614700C8517A /* GLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 226018171388614700C8517A /* GLUtils.m */; };
+		2260181B1388615900C8517A /* RDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260181A1388615900C8517A /* RDColor.m */; };
+		226018231388616800C8517A /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260181E1388616800C8517A /* Shader.m */; };
+		226018241388616800C8517A /* Color.frag in Resources */ = {isa = PBXBuildFile; fileRef = 2260181F1388616800C8517A /* Color.frag */; };
+		226018251388616800C8517A /* Color.vert in Resources */ = {isa = PBXBuildFile; fileRef = 226018201388616800C8517A /* Color.vert */; };
+		226018261388616800C8517A /* ReactDiffuse.frag in Resources */ = {isa = PBXBuildFile; fileRef = 226018211388616800C8517A /* ReactDiffuse.frag */; };
+		226018271388616800C8517A /* ReactDiffuse.vert in Resources */ = {isa = PBXBuildFile; fileRef = 226018221388616800C8517A /* ReactDiffuse.vert */; };
+		2260184D138861B300C8517A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260184C138861B300C8517A /* GLUT.framework */; };
+		22601884138861C500C8517A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22601883138861C500C8517A /* Accelerate.framework */; };
+		22601889138861E400C8517A /* Noise3DTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = 22601888138861E400C8517A /* Noise3DTexture.c */; };
+		2260188C138861ED00C8517A /* mat4.c in Sources */ = {isa = PBXBuildFile; fileRef = 2260188A138861ED00C8517A /* mat4.c */; };
+		22601894138864EF00C8517A /* ReactDiffuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22601893138864EF00C8517A /* ReactDiffuse.m */; };
+		226018FB13896C5C00C8517A /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 226018FA13896C5C00C8517A /* GLView.m */; };
+		22601E731389E47E00C8517A /* Perlin.m in Sources */ = {isa = PBXBuildFile; fileRef = 22601E721389E47E00C8517A /* Perlin.m */; };
+		22601EA51389E5ED00C8517A /* Perlin.frag in Resources */ = {isa = PBXBuildFile; fileRef = 22601EA31389E5ED00C8517A /* Perlin.frag */; };
+		22601EA61389E5ED00C8517A /* Perlin.vert in Resources */ = {isa = PBXBuildFile; fileRef = 22601EA41389E5ED00C8517A /* Perlin.vert */; };
+		256AC3DA0F4B6AC300CF3369 /* FlatSunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* FlatSunAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B47E583612E4E0A4005F88E8 /* CamView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47E582E12E4E0A4005F88E8 /* CamView.m */; };
+		B47E583712E4E0A4005F88E8 /* Routines.m in Sources */ = {isa = PBXBuildFile; fileRef = B47E583012E4E0A4005F88E8 /* Routines.m */; };
+		B47E583812E4E0A4005F88E8 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B47E583212E4E0A4005F88E8 /* ImageUtils.m */; };
+		B47E599112E4E0CF005F88E8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E598E12E4E0CF005F88E8 /* AppKit.framework */; };
+		B47E599212E4E0CF005F88E8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E598F12E4E0CF005F88E8 /* CoreData.framework */; };
+		B47E599312E4E0CF005F88E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E599012E4E0CF005F88E8 /* Foundation.framework */; };
+		B47E59DA12E4EA1E005F88E8 /* Math2D.m in Sources */ = {isa = PBXBuildFile; fileRef = B47E59C912E4EA1E005F88E8 /* Math2D.m */; };
+		B47E59DC12E4EA1E005F88E8 /* StopWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B47E59CD12E4EA1E005F88E8 /* StopWatch.m */; };
+		CF8842E913955C64002EFAD1 /* BlobFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8842E813955C64002EFAD1 /* BlobFinder.m */; };
+		DD5EF212138AF9ED000D799C /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5EF211138AF9ED000D799C /* QuickTime.framework */; };
+		DD8BD86D13997ABE0086839E /* Sphere.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8BD86C13997ABE0086839E /* Sphere.m */; };
+		F30FB5711485B84600F58D27 /* dc1394.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30FB5701485B84600F58D27 /* dc1394.framework */; };
+		F30FB5721485B85300F58D27 /* FlatSun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30FB56E1485B78000F58D27 /* FlatSun.framework */; };
+		FF8AA912138321FA00FD7816 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AA911138321FA00FD7816 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		220D1B7B13A6BCAC0080BD4C /* HaloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaloView.h; sourceTree = "<group>"; };
+		220D1B7C13A6BCAC0080BD4C /* HaloView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaloView.m; sourceTree = "<group>"; };
+		2225699013AD50AB00EA00DD /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		2225699113AD50AB00EA00DD /* Texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture.m; sourceTree = "<group>"; };
+		2225699313AD510200EA00DD /* sun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sun.gif; sourceTree = "<group>"; };
+		223DFAB51383413B00506ED6 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		223DFAB61383413B00506ED6 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		2248C8FA13837CEC00EB0B52 /* LedPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LedPanel.h; sourceTree = "<group>"; };
+		2248C8FB13837CEC00EB0B52 /* LedPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LedPanel.m; sourceTree = "<group>"; };
+		2248C9601383A0F600EB0B52 /* LedPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LedPanelView.h; sourceTree = "<group>"; };
+		2248C9611383A0F600EB0B52 /* LedPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LedPanelView.m; sourceTree = "<group>"; };
+		226018161388614700C8517A /* GLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtils.h; sourceTree = "<group>"; };
+		226018171388614700C8517A /* GLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUtils.m; sourceTree = "<group>"; };
+		226018191388615900C8517A /* RDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDColor.h; sourceTree = "<group>"; };
+		2260181A1388615900C8517A /* RDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDColor.m; sourceTree = "<group>"; };
+		2260181D1388616800C8517A /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		2260181E1388616800C8517A /* Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shader.m; sourceTree = "<group>"; };
+		2260181F1388616800C8517A /* Color.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Color.frag; sourceTree = "<group>"; };
+		226018201388616800C8517A /* Color.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Color.vert; sourceTree = "<group>"; };
+		226018211388616800C8517A /* ReactDiffuse.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ReactDiffuse.frag; sourceTree = "<group>"; };
+		226018221388616800C8517A /* ReactDiffuse.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ReactDiffuse.vert; sourceTree = "<group>"; };
+		2260184C138861B300C8517A /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		22601883138861C500C8517A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		22601887138861E400C8517A /* Noise3DTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Noise3DTexture.h; sourceTree = "<group>"; };
+		22601888138861E400C8517A /* Noise3DTexture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Noise3DTexture.c; sourceTree = "<group>"; };
+		2260188A138861ED00C8517A /* mat4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mat4.c; sourceTree = "<group>"; };
+		2260188B138861ED00C8517A /* mat4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat4.h; sourceTree = "<group>"; };
+		22601892138864EF00C8517A /* ReactDiffuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactDiffuse.h; sourceTree = "<group>"; };
+		22601893138864EF00C8517A /* ReactDiffuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactDiffuse.m; sourceTree = "<group>"; };
+		226018F913896C5C00C8517A /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		226018FA13896C5C00C8517A /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		22601E711389E47E00C8517A /* Perlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perlin.h; sourceTree = "<group>"; };
+		22601E721389E47E00C8517A /* Perlin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Perlin.m; sourceTree = "<group>"; };
+		22601EA31389E5ED00C8517A /* Perlin.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Perlin.frag; sourceTree = "<group>"; };
+		22601EA41389E5ED00C8517A /* Perlin.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Perlin.vert; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* FlatSunAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatSunAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* FlatSunAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatSunAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* FlatSun_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatSun_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* FlatSun-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlatSun-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* FlatSun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatSun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47E582D12E4E0A4005F88E8 /* CamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamView.h; sourceTree = "<group>"; };
+		B47E582E12E4E0A4005F88E8 /* CamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamView.m; sourceTree = "<group>"; };
+		B47E582F12E4E0A4005F88E8 /* Routines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routines.h; sourceTree = "<group>"; };
+		B47E583012E4E0A4005F88E8 /* Routines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Routines.m; sourceTree = "<group>"; };
+		B47E583112E4E0A4005F88E8 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		B47E583212E4E0A4005F88E8 /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		B47E583312E4E0A4005F88E8 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		B47E598E12E4E0CF005F88E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		B47E598F12E4E0CF005F88E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		B47E599012E4E0CF005F88E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		B47E59C512E4EA1E005F88E8 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		B47E59C812E4EA1E005F88E8 /* Math2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math2D.h; sourceTree = "<group>"; };
+		B47E59C912E4EA1E005F88E8 /* Math2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math2D.m; sourceTree = "<group>"; };
+		B47E59CC12E4EA1E005F88E8 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		B47E59CD12E4EA1E005F88E8 /* StopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatch.m; sourceTree = "<group>"; };
+		CF8842E713955C64002EFAD1 /* BlobFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlobFinder.h; sourceTree = "<group>"; };
+		CF8842E813955C64002EFAD1 /* BlobFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlobFinder.m; sourceTree = "<group>"; };
+		DD5EF211138AF9ED000D799C /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		DD8BD86B13997ABE0086839E /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		DD8BD86C13997ABE0086839E /* Sphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sphere.m; sourceTree = "<group>"; };
+		F30FB56E1485B78000F58D27 /* FlatSun.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlatSun.framework; path = ../../../../../../Library/Frameworks/FlatSun.framework; sourceTree = "<group>"; };
+		F30FB5701485B84600F58D27 /* dc1394.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = dc1394.framework; path = ../../../../../../Library/Frameworks/dc1394.framework; sourceTree = "<group>"; };
+		FF8AA88213831DC400FD7816 /* dc1394.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = dc1394.framework; path = /Library/Frameworks/dc1394.framework; sourceTree = "<absolute>"; };
+		FF8AA911138321FA00FD7816 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30FB5721485B85300F58D27 /* FlatSun.framework in Frameworks */,
+				F30FB5711485B84600F58D27 /* dc1394.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				B47E599112E4E0CF005F88E8 /* AppKit.framework in Frameworks */,
+				B47E599212E4E0CF005F88E8 /* CoreData.framework in Frameworks */,
+				B47E599312E4E0CF005F88E8 /* Foundation.framework in Frameworks */,
+				FF8AA912138321FA00FD7816 /* OpenGL.framework in Frameworks */,
+				2260184D138861B300C8517A /* GLUT.framework in Frameworks */,
+				22601884138861C500C8517A /* Accelerate.framework in Frameworks */,
+				DD5EF212138AF9ED000D799C /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF8842E713955C64002EFAD1 /* BlobFinder.h */,
+				CF8842E813955C64002EFAD1 /* BlobFinder.m */,
+				223DFAB51383413B00506ED6 /* Camera.h */,
+				223DFAB61383413B00506ED6 /* Camera.m */,
+				2248C8FA13837CEC00EB0B52 /* LedPanel.h */,
+				2248C8FB13837CEC00EB0B52 /* LedPanel.m */,
+				256AC3D80F4B6AC300CF3369 /* FlatSunAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* FlatSunAppDelegate.m */,
+				B47E582F12E4E0A4005F88E8 /* Routines.h */,
+				B47E583012E4E0A4005F88E8 /* Routines.m */,
+				B47E583112E4E0A4005F88E8 /* ImageUtils.h */,
+				B47E583212E4E0A4005F88E8 /* ImageUtils.m */,
+				B47E583312E4E0A4005F88E8 /* Global.h */,
+				B47E59C512E4EA1E005F88E8 /* Types.h */,
+				B47E59C812E4EA1E005F88E8 /* Math2D.h */,
+				B47E59C912E4EA1E005F88E8 /* Math2D.m */,
+				B47E59CC12E4EA1E005F88E8 /* StopWatch.h */,
+				B47E59CD12E4EA1E005F88E8 /* StopWatch.m */,
+				226018161388614700C8517A /* GLUtils.h */,
+				226018171388614700C8517A /* GLUtils.m */,
+				DD8BD86B13997ABE0086839E /* Sphere.h */,
+				DD8BD86C13997ABE0086839E /* Sphere.m */,
+				2225699013AD50AB00EA00DD /* Texture.h */,
+				2225699113AD50AB00EA00DD /* Texture.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5EF211138AF9ED000D799C /* QuickTime.framework */,
+				22601883138861C500C8517A /* Accelerate.framework */,
+				FF8AA911138321FA00FD7816 /* OpenGL.framework */,
+				2260184C138861B300C8517A /* GLUT.framework */,
+				FF8AA88213831DC400FD7816 /* dc1394.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B47E598E12E4E0CF005F88E8 /* AppKit.framework */,
+				B47E598F12E4E0CF005F88E8 /* CoreData.framework */,
+				B47E599012E4E0CF005F88E8 /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* FlatSun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2260181C1388616800C8517A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2260181F1388616800C8517A /* Color.frag */,
+				226018201388616800C8517A /* Color.vert */,
+				226018211388616800C8517A /* ReactDiffuse.frag */,
+				226018221388616800C8517A /* ReactDiffuse.vert */,
+				22601EA31389E5ED00C8517A /* Perlin.frag */,
+				22601EA41389E5ED00C8517A /* Perlin.vert */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		22601C181389A86700C8517A /* Shader classes */ = {
+			isa = PBXGroup;
+			children = (
+				2260181D1388616800C8517A /* Shader.h */,
+				2260181E1388616800C8517A /* Shader.m */,
+				22601892138864EF00C8517A /* ReactDiffuse.h */,
+				22601893138864EF00C8517A /* ReactDiffuse.m */,
+				226018191388615900C8517A /* RDColor.h */,
+				2260181A1388615900C8517A /* RDColor.m */,
+				22601E711389E47E00C8517A /* Perlin.h */,
+				22601E721389E47E00C8517A /* Perlin.m */,
+			);
+			name = "Shader classes";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FlatSun */ = {
+			isa = PBXGroup;
+			children = (
+				F30FB5701485B84600F58D27 /* dc1394.framework */,
+				F30FB56E1485B78000F58D27 /* FlatSun.framework */,
+				2225699313AD510200EA00DD /* sun.gif */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				B47E59E212E4EA28005F88E8 /* Views */,
+				22601C181389A86700C8517A /* Shader classes */,
+				2260181C1388616800C8517A /* Shaders */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = FlatSun;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				22601887138861E400C8517A /* Noise3DTexture.h */,
+				22601888138861E400C8517A /* Noise3DTexture.c */,
+				256AC3F00F4B6AF500CF3369 /* FlatSun_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				2260188A138861ED00C8517A /* mat4.c */,
+				2260188B138861ED00C8517A /* mat4.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* FlatSun-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B47E59E212E4EA28005F88E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				226018F913896C5C00C8517A /* GLView.h */,
+				226018FA13896C5C00C8517A /* GLView.m */,
+				2248C9601383A0F600EB0B52 /* LedPanelView.h */,
+				2248C9611383A0F600EB0B52 /* LedPanelView.m */,
+				B47E582D12E4E0A4005F88E8 /* CamView.h */,
+				B47E582E12E4E0A4005F88E8 /* CamView.m */,
+				220D1B7B13A6BCAC0080BD4C /* HaloView.h */,
+				220D1B7C13A6BCAC0080BD4C /* HaloView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* FlatSun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FlatSun" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlatSun;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FlatSun;
+			productReference = 8D1107320486CEB800E47090 /* FlatSun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlatSun" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FlatSun */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* FlatSun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226018241388616800C8517A /* Color.frag in Resources */,
+				226018251388616800C8517A /* Color.vert in Resources */,
+				226018261388616800C8517A /* ReactDiffuse.frag in Resources */,
+				226018271388616800C8517A /* ReactDiffuse.vert in Resources */,
+				22601EA51389E5ED00C8517A /* Perlin.frag in Resources */,
+				22601EA61389E5ED00C8517A /* Perlin.vert in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				2225699413AD510200EA00DD /* sun.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* FlatSunAppDelegate.m in Sources */,
+				B47E583612E4E0A4005F88E8 /* CamView.m in Sources */,
+				B47E583712E4E0A4005F88E8 /* Routines.m in Sources */,
+				B47E583812E4E0A4005F88E8 /* ImageUtils.m in Sources */,
+				B47E59DA12E4EA1E005F88E8 /* Math2D.m in Sources */,
+				B47E59DC12E4EA1E005F88E8 /* StopWatch.m in Sources */,
+				223DFAB71383413B00506ED6 /* Camera.m in Sources */,
+				2248C8FC13837CEC00EB0B52 /* LedPanel.m in Sources */,
+				2248C9621383A0F600EB0B52 /* LedPanelView.m in Sources */,
+				226018181388614700C8517A /* GLUtils.m in Sources */,
+				2260181B1388615900C8517A /* RDColor.m in Sources */,
+				226018231388616800C8517A /* Shader.m in Sources */,
+				22601889138861E400C8517A /* Noise3DTexture.c in Sources */,
+				2260188C138861ED00C8517A /* mat4.c in Sources */,
+				22601894138864EF00C8517A /* ReactDiffuse.m in Sources */,
+				226018FB13896C5C00C8517A /* GLView.m in Sources */,
+				22601E731389E47E00C8517A /* Perlin.m in Sources */,
+				CF8842E913955C64002EFAD1 /* BlobFinder.m in Sources */,
+				DD8BD86D13997ABE0086839E /* Sphere.m in Sources */,
+				220D1B7D13A6BCAC0080BD4C /* HaloView.m in Sources */,
+				2225699213AD50AB00EA00DD /* Texture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)/../../../../../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlatSun_Prefix.pch;
+				INFOPLIST_FILE = "FlatSun-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = FlatSun;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)/../../../../../../Library/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlatSun_Prefix.pch;
+				INFOPLIST_FILE = "FlatSun-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = FlatSun;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FlatSun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlatSun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

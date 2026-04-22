@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers
+END
+iso.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/iso.h
+END
+internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/internal.h
+END
+format7.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/format7.h
+END
+control.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/control.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/utils.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/log.h
+END
+capture.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/capture.h
+END
+register.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/register.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/types.h
+END
+video.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/video.h
+END
+dc1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/dc1394.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/camera.h
+END
+conversions.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/dc1394.framework/Versions/A/Headers/conversions.h
+END

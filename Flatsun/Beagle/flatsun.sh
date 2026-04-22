@@ -1,0 +1,31 @@
+#! /bin/sh
+# /etc/init.d/flatsun.sh
+#
+# To install : 
+# install this file in /etc/init.d
+# chmod 766 /etc/init.d/flatsun.sh
+# update-rc.d flatsun.sh defaults
+
+# Some things that run always
+touch /var/lock/fssun
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting Flat Sun server"
+    mknod /dev/flatsun c 60 0
+    insmod /home/root/flatsun.ko
+    echo "Starting runserver"
+    /home/root/pullup.sh
+    /home/root/fsserver
+    ;;
+  stop)
+    echo "Stopping Flat Sun server"
+    killall -9 fsserver
+    rmmod flatsun
+    ;;
+  *)
+    echo "Usage: /etc/init.d/flatsun {start|stop}"
+    exit 1
+    ;;
+esac

@@ -1,0 +1,411 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 21
+/repos/proj/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/proj/!svn/ver/544/Antimodular/FlatSun/host/Conroy/FlatSun
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/main.m
+END
+xGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/489/Antimodular/FlatSun/host/Conroy/FlatSun/xGLView.m
+END
+CamView.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/CamView.h
+END
+GLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/GLView.h
+END
+Global.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Global.h
+END
+CamView.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/CamView.m
+END
+GLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/GLView.m
+END
+Color.frag
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Color.frag
+END
+Color.vert
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Color.vert
+END
+Routines.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Routines.h
+END
+ColorView.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/ColorView.h
+END
+FlatSun_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/FlatSun_Prefix.pch
+END
+Routines.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Routines.m
+END
+ColorView.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/ColorView.m
+END
+HaloView.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/HaloView.h
+END
+libPvAPI.dylib
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/libPvAPI.dylib
+END
+HaloView.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/HaloView.m
+END
+Camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/FlatSun/Camera.h
+END
+Perlin.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Perlin.h
+END
+ReactDiffuse.frag
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/ReactDiffuse.frag
+END
+ReactDiffuse.vert
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/ReactDiffuse.vert
+END
+Camera.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/543/Antimodular/FlatSun/host/Conroy/FlatSun/Camera.m
+END
+Perlin.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Perlin.m
+END
+RDColorView.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/RDColorView.h
+END
+Texture.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Texture.h
+END
+RDView.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/RDView.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Types.h
+END
+RDColorView.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/RDColorView.m
+END
+RDColor.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/RDColor.h
+END
+Texture.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Texture.m
+END
+RDView.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/RDView.m
+END
+FlatSunAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/FlatSunAppDelegate.h
+END
+RDColor.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/RDColor.m
+END
+StopWatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/StopWatch.h
+END
+FlatSunAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/FlatSunAppDelegate.m
+END
+Math2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Math2D.h
+END
+PvApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/PvApi.h
+END
+Perlin.frag
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Perlin.frag
+END
+StopWatch.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/StopWatch.m
+END
+Perlin.vert
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Perlin.vert
+END
+sun.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/sun.gif
+END
+Math2D.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Math2D.m
+END
+Shader.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Shader.h
+END
+BmpView.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/BmpView.h
+END
+FlatSun-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/FlatSun-Info.plist
+END
+Shader.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Shader.m
+END
+BmpView.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/BmpView.m
+END
+LedPanelView.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/LedPanelView.h
+END
+Noise3DTexture.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Noise3DTexture.c
+END
+LedPanelView.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/LedPanelView.m
+END
+LedPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/LedPanel.h
+END
+Noise3DTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Noise3DTexture.h
+END
+Sphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Sphere.h
+END
+LedPanel.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/LedPanel.m
+END
+Sphere.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/Sphere.m
+END
+mat4.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/mat4.c
+END
+ImageUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/ImageUtils.h
+END
+ReactDiffuse.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/ReactDiffuse.h
+END
+mat4.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/mat4.h
+END
+BlobFinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/BlobFinder.h
+END
+ImageUtils.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/ImageUtils.m
+END
+ReactDiffuse.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/ReactDiffuse.m
+END
+BlobFinder.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/BlobFinder.m
+END
+Image.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Image.h
+END
+GLUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/GLUtils.h
+END
+Image.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/proj/!svn/ver/486/Antimodular/FlatSun/host/Conroy/FlatSun/Image.m
+END
+GLUtils.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/proj/!svn/ver/542/Antimodular/FlatSun/host/Conroy/FlatSun/GLUtils.m
+END
