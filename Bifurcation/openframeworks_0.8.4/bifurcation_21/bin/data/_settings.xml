@@ -1,0 +1,18 @@
+<controls>
+    <SliderInt_tree_tilt>
+        <name>tree tilt</name>
+        <value>37</value>
+    </SliderInt_tree_tilt>
+    <Button_calibrate_new_branch>
+        <name>calibrate new branch</name>
+        <value>0</value>
+    </Button_calibrate_new_branch>
+    <Button_restart>
+        <name>restart</name>
+        <value>0</value>
+    </Button_restart>
+    <Button_quit>
+        <name>quit</name>
+        <value>0</value>
+    </Button_quit>
+</controls>

@@ -1,0 +1,50 @@
+<controls>
+    <SliderInt_frame_type>
+        <name>frame type</name>
+        <value>1</value>
+    </SliderInt_frame_type>
+    <Toggle_edit_frame>
+        <name>edit frame</name>
+        <value>0</value>
+    </Toggle_edit_frame>
+    <SliderFloat_leftTopX>
+        <name>leftTopX</name>
+        <value>0.000000000</value>
+    </SliderFloat_leftTopX>
+    <SliderFloat_leftTopY>
+        <name>leftTopY</name>
+        <value>0.000000000</value>
+    </SliderFloat_leftTopY>
+    <SliderFloat_rightTopX>
+        <name>rightTopX</name>
+        <value>1920.000000000</value>
+    </SliderFloat_rightTopX>
+    <SliderFloat_rightTopY>
+        <name>rightTopY</name>
+        <value>0.000000000</value>
+    </SliderFloat_rightTopY>
+    <SliderFloat_rightBottomX>
+        <name>rightBottomX</name>
+        <value>1920.000000000</value>
+    </SliderFloat_rightBottomX>
+    <SliderFloat_rightBottomY>
+        <name>rightBottomY</name>
+        <value>1200.000000000</value>
+    </SliderFloat_rightBottomY>
+    <SliderFloat_leftBottomX>
+        <name>leftBottomX</name>
+        <value>0.000000000</value>
+    </SliderFloat_leftBottomX>
+    <SliderFloat_leftBottomY>
+        <name>leftBottomY</name>
+        <value>1200.000000000</value>
+    </SliderFloat_leftBottomY>
+    <Toggle_border_gradient>
+        <name>border gradient</name>
+        <value>1</value>
+    </Toggle_border_gradient>
+    <SliderInt_borderWidth>
+        <name>borderWidth</name>
+        <value>8</value>
+    </SliderInt_borderWidth>
+</controls>

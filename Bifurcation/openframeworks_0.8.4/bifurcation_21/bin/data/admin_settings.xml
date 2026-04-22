@@ -1,0 +1,182 @@
+<controls>
+    <Button_quit>
+        <name>quit</name>
+        <value>0</value>
+    </Button_quit>
+    <Button_debug>
+        <name>debug</name>
+        <value>0</value>
+    </Button_debug>
+    <Toggle_show_gui>
+        <name>show gui</name>
+        <value>1</value>
+    </Toggle_show_gui>
+    <Toggle_show_video>
+        <name>show video</name>
+        <value>0</value>
+    </Toggle_show_video>
+    <Toggle_show_tracking>
+        <name>show tracking</name>
+        <value>0</value>
+    </Toggle_show_tracking>
+    <Toggle_show_pointCloud>
+        <name>show pointCloud</name>
+        <value>0</value>
+    </Toggle_show_pointCloud>
+    <Toggle_show_model>
+        <name>show model</name>
+        <value>0</value>
+    </Toggle_show_model>
+    <Toggle_bAllowEcoMode>
+        <name>bAllowEcoMode</name>
+        <value>0</value>
+    </Toggle_bAllowEcoMode>
+    <Toggle_allow_dimming>
+        <name>allow dimming</name>
+        <value>0</value>
+    </Toggle_allow_dimming>
+    <SliderFloat_current_dim>
+        <name>current dim</name>
+        <value>255.000000000</value>
+    </SliderFloat_current_dim>
+    <SliderFloat_dim_offset>
+        <name>dim offset</name>
+        <value>255.000000000</value>
+    </SliderFloat_dim_offset>
+    <SliderFloat_dim_Smooth>
+        <name>dim Smooth</name>
+        <value>0.975000024</value>
+    </SliderFloat_dim_Smooth>
+    <Toggle_mirror>
+        <name>mirror</name>
+        <value>1</value>
+    </Toggle_mirror>
+    <Toggle_flip>
+        <name>flip</name>
+        <value>1</value>
+    </Toggle_flip>
+    <SliderInt_near_Threshold>
+        <name>near Threshold</name>
+        <value>1415</value>
+    </SliderInt_near_Threshold>
+    <SliderInt_far_Threshold>
+        <name>far Threshold</name>
+        <value>1591</value>
+    </SliderInt_far_Threshold>
+    <SliderInt_minCropX>
+        <name>minCropX</name>
+        <value>70</value>
+    </SliderInt_minCropX>
+    <SliderInt_minCropY>
+        <name>minCropY</name>
+        <value>67</value>
+    </SliderInt_minCropY>
+    <SliderInt_maxCropX>
+        <name>maxCropX</name>
+        <value>592</value>
+    </SliderInt_maxCropX>
+    <SliderInt_maxCropY>
+        <name>maxCropY</name>
+        <value>480</value>
+    </SliderInt_maxCropY>
+    <SliderInt_binaryBlur>
+        <name>binaryBlur</name>
+        <value>1</value>
+    </SliderInt_binaryBlur>
+    <SliderInt_binaryErode>
+        <name>binaryErode</name>
+        <value>2</value>
+    </SliderInt_binaryErode>
+    <SliderInt_binaryDilate>
+        <name>binaryDilate</name>
+        <value>8</value>
+    </SliderInt_binaryDilate>
+    <SliderFloat_diameter>
+        <name>diameter</name>
+        <value>21.500000000</value>
+    </SliderFloat_diameter>
+    <Toggle_use_raw>
+        <name>use raw</name>
+        <value>0</value>
+    </Toggle_use_raw>
+    <SliderInt_max_Z_jump>
+        <name>max Z jump</name>
+        <value>50</value>
+    </SliderInt_max_Z_jump>
+    <SliderFloat_smooth_Zmotion>
+        <name>smooth Zmotion</name>
+        <value>0.070000000</value>
+    </SliderFloat_smooth_Zmotion>
+    <SliderFloat_smooth_motionX>
+        <name>smooth motionX</name>
+        <value>0.055000000</value>
+    </SliderFloat_smooth_motionX>
+    <SliderFloat_smooth_motionY>
+        <name>smooth motionY</name>
+        <value>0.025000000</value>
+    </SliderFloat_smooth_motionY>
+    <Toggle_bUseOutsideNewFrame>
+        <name>bUseOutsideNewFrame</name>
+        <value>1</value>
+    </Toggle_bUseOutsideNewFrame>
+    <SliderFloat_min_dist>
+        <name>min_dist</name>
+        <value>0.000000000</value>
+    </SliderFloat_min_dist>
+    <Button_load_camPos>
+        <name>load camPos</name>
+        <value>0</value>
+    </Button_load_camPos>
+    <Button_save_camPos>
+        <name>save camPos</name>
+        <value>0</value>
+    </Button_save_camPos>
+    <SliderFloat_modelScale>
+        <name>modelScale</name>
+        <value>0.078974098</value>
+    </SliderFloat_modelScale>
+    <SliderInt_tree_tilt>
+        <name>tree tilt</name>
+        <value>37</value>
+    </SliderInt_tree_tilt>
+    <SliderInt_min_diamTOtempl>
+        <name>min diamTOtempl</name>
+        <value>300</value>
+    </SliderInt_min_diamTOtempl>
+    <Toggle_bUseKalman>
+        <name>bUseKalman</name>
+        <value>1</value>
+    </Toggle_bUseKalman>
+    <SliderFloat_process_noise>
+        <name>process noise</name>
+        <value>0.000010000</value>
+    </SliderFloat_process_noise>
+    <SliderFloat_measurement_noise>
+        <name>measurement noise</name>
+        <value>0.100000001</value>
+    </SliderFloat_measurement_noise>
+    <SliderFloat_process_noise2>
+        <name>process noise2</name>
+        <value>0.000085000</value>
+    </SliderFloat_process_noise2>
+    <SliderFloat_measurement_noise2>
+        <name>measurement noise2</name>
+        <value>0.595000029</value>
+    </SliderFloat_measurement_noise2>
+    <Button_set_kalman>
+        <name>set kalman</name>
+        <value>0</value>
+    </Button_set_kalman>
+    <Toggle_show_template>
+        <name>show template</name>
+        <value>0</value>
+    </Toggle_show_template>
+    <Button_make_template>
+        <name>make template</name>
+        <value>0</value>
+    </Button_make_template>
+    <Toggle_got_template>
+        <name>got template</name>
+        <value>1</value>
+    </Toggle_got_template>
+</controls>

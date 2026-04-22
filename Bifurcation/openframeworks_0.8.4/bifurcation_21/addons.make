@@ -1,0 +1,10 @@
+ofxAssimpModelLoader
+ofxKinect
+ofxOpenCv
+ofxXmlSettings
+ofxBlur
+ofxCv
+ofxCvKalman
+ofxGrabCam
+ofxMSAInteractiveObject
+ofxSimpleGuiToo
