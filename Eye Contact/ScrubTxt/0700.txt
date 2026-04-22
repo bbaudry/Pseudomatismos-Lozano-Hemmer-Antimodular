@@ -1,0 +1,8 @@
+name:0700
+duration:0:00:00:07.900/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:01.1600/2500
+eye contact start:0:00:00:03.261/2500
+eye contact end:0:00:00:03.2230/2500
+extro start:0:00:00:06.600/2500
+extro end:0:00:00:07.900/2500

@@ -1,0 +1,8 @@
+name:0132
+duration:0:00:00:11.600/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:04.900/2500
+eye contact start:0:00:00:05.45/2500
+eye contact end:0:00:00:08.872/2500
+extro start:0:00:00:10.1307/2500
+extro end:0:00:00:11.600/2500

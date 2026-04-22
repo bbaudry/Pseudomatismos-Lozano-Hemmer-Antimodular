@@ -1,0 +1,8 @@
+name:0169
+duration:0:00:00:19.200/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:02.2100/2500
+eye contact start:0:00:00:06.997/2500
+eye contact end:0:00:00:11.1061/2500
+extro start:0:00:00:16.142/2500
+extro end:0:00:00:19.200/2500

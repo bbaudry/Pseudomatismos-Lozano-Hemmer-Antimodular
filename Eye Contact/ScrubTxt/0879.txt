@@ -1,0 +1,8 @@
+name:0879
+duration:0:00:00:10.21/25
+intro start:0:00:00:00.00/25
+intro end:0:00:00:02.20/25
+eye contact start:0:00:00:04.23/25
+eye contact end:0:00:00:06.22/25
+extro start:0:00:00:09.22/25
+extro end:0:00:00:10.21/25

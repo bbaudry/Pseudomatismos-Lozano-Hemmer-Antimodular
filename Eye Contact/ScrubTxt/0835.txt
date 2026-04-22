@@ -1,0 +1,8 @@
+name:0835
+duration:0:00:00:08.900/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:00.800/2500
+eye contact start:0:00:00:02.805/2500
+eye contact end:0:00:00:04.966/2500
+extro start:0:00:00:07.400/2500
+extro end:0:00:00:08.900/2500

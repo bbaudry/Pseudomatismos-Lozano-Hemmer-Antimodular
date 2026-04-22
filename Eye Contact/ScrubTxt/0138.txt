@@ -1,0 +1,8 @@
+name:0138
+duration:0:00:00:10.1500/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:02.900/2500
+eye contact start:0:00:00:04.523/2500
+eye contact end:0:00:00:07.548/2500
+extro start:0:00:00:09.1327/2500
+extro end:0:00:00:10.1500/2500

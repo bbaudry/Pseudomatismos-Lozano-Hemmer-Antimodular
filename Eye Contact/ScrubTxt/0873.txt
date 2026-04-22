@@ -1,0 +1,8 @@
+name:0873
+duration:0:00:00:15.00/2500
+intro start:0:00:00:01.663/2500
+intro end:0:00:00:04.2375/2500
+eye contact start:0:00:00:04.2114/2500
+eye contact end:0:00:00:06.662/2500
+extro start:0:00:00:12.2330/2500
+extro end:0:00:00:15.00/2500

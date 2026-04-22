@@ -1,0 +1,8 @@
+name:0023
+duration:0:00:09:07.420252397/1685418593
+intro start:0:00:00:00.00/600
+intro end:0:00:00:00.448/600
+eye contact start:0:00:00:00.448/600
+eye contact end:0:00:00:01.297/600
+extro start:0:00:00:01.297/600
+extro end:0:00:00:02.160/600

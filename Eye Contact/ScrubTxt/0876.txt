@@ -1,0 +1,8 @@
+name:0876
+duration:0:00:00:08.20/25
+intro start:0:00:00:00.00/25
+intro end:0:00:00:01.08/25
+eye contact start:0:00:00:03.17/25
+eye contact end:0:00:00:04.09/25
+extro start:0:00:00:07.24/25
+extro end:0:00:00:08.20/25

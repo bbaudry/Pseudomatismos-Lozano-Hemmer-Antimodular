@@ -1,0 +1,8 @@
+name:0412
+duration:0:00:00:08.600/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:01.500/2500
+eye contact start:0:00:00:02.467/2500
+eye contact end:0:00:00:04.1200/2500
+extro start:0:00:00:06.1800/2500
+extro end:0:00:00:08.600/2500

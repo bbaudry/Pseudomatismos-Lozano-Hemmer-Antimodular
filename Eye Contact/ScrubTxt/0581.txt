@@ -1,0 +1,8 @@
+name:0581
+duration:0:00:00:24.100/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:02.1100/2500
+eye contact start:0:00:00:03.1774/2500
+eye contact end:0:00:00:18.2362/2500
+extro start:0:00:00:21.2100/2500
+extro end:0:00:00:23.500/2500

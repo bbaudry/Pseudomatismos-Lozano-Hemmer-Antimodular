@@ -1,0 +1,8 @@
+name:0006
+duration:0:00:01:05.560/600
+intro start:0:00:00:19.480/600
+intro end:0:00:00:21.160/600
+eye contact start:0:00:00:22.200/600
+eye contact end:0:00:00:33.40/600
+extro start:0:00:00:33.120/600
+extro end:0:00:00:35.280/600

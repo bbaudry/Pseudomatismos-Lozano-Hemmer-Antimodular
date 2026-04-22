@@ -1,0 +1,8 @@
+name:0672
+duration:0:00:00:24.1800/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:02.2200/2500
+eye contact start:0:00:00:07.1955/2500
+eye contact end:0:00:00:17.1300/2500
+extro start:0:00:00:21.500/2500
+extro end:0:00:00:24.1800/2500

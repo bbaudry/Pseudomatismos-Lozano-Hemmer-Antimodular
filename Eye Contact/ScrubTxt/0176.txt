@@ -1,0 +1,8 @@
+name:0176
+duration:0:00:00:33.1600/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:05.00/2500
+eye contact start:0:00:00:10.437/2500
+eye contact end:0:00:00:23.1508/2500
+extro start:0:00:00:32.300/2500
+extro end:0:00:00:33.1600/2500

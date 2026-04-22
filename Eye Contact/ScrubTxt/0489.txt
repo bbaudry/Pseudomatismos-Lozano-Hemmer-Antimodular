@@ -1,0 +1,8 @@
+name:0489
+duration:0:00:00:16.2300/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:02.1100/2500
+eye contact start:0:00:00:04.357/2500
+eye contact end:0:00:00:11.2300/2500
+extro start:0:00:00:14.200/2500
+extro end:0:00:00:16.2300/2500

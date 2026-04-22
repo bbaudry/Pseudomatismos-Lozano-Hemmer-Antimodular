@@ -1,0 +1,8 @@
+name:0604
+duration:0:00:00:09.1600/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:00.1600/2500
+eye contact start:0:00:00:02.1792/2500
+eye contact end:0:00:00:04.562/2500
+extro start:0:00:00:08.300/2500
+extro end:0:00:00:09.1600/2500

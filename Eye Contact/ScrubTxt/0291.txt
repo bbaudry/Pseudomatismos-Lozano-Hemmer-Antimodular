@@ -1,0 +1,8 @@
+name:0291
+duration:0:00:00:35.2100/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:03.2400/2500
+eye contact start:0:00:00:09.1300/2500
+eye contact end:0:00:00:28.1300/2500
+extro start:0:00:00:35.1300/2500
+extro end:0:00:00:35.2100/2500

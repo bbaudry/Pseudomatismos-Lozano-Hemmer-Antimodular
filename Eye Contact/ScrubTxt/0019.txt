@@ -1,0 +1,8 @@
+name:0019
+duration:0:00:00:38.380/600
+intro start:0:00:00:00.00/600
+intro end:0:00:00:01.140/600
+eye contact start:0:00:00:04.00/600
+eye contact end:0:00:00:16.200/600
+extro start:0:00:00:17.260/600
+extro end:0:00:00:18.313/600

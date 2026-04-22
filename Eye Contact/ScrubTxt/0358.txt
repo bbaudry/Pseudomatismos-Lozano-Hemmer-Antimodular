@@ -1,0 +1,8 @@
+name:0358
+duration:0:00:01:00.1600/2500
+intro start:0:00:00:00.00/2500
+intro end:0:00:00:02.2100/2500
+eye contact start:0:00:00:10.2138/2500
+eye contact end:0:00:00:50.85/2500
+extro start:0:00:00:58.300/2500
+extro end:0:00:01:00.1600/2500
