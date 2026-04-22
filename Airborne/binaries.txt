@@ -1,0 +1,171 @@
+THIS FILE DESCRIBES THE SET OF BINARY FILES THAT FORM
+THE FACEAPI BINARY DISTRIBUTION. 
+
+IT IS IMPORTANT TO READ THIS DOCUMENT TO UNDERSTAND 
+THE PURPOSE OF EVERY BINARY FILE IN THE DISTRIBUTION. 
+
+------------------------------------------------------------
+MINIMUM binary files for deployment:
+------------------------------------------------------------
+* smft40.dll
+
+	The main faceAPI DLL. Minor versions increments have 
+	filenames smft41.dll, smft42.dll etc. 
+
+	Maintenance version increments have the same filename.
+
+	Look at the file properties to see full version 
+	information.
+
+	Production license variants of this DLL are made 
+	specifically for customers who have signed a production 
+	license agreement with Seeing Machines.
+
+* sm_ca_resource_facesearchv2_level0_cdefault_6.1.dll
+* sm_ca_resource_facesearchv2_level1_cdefault_6.1.dll
+
+	These are resource DLLs that contain coefficients 
+	for detecting faces. 
+	
+	Be aware that the version number of these DLLs may
+	change with subsequent releases of faceAPI.
+
+	The "cdefault" resources are for operating with images
+	exposed to visible lighting conditions, such as webcams.
+
+	These DLLs are delay loaded and optional. 
+	The HeadTrackingEngine requires a set of "level0" 
+	and "level1" coefficients, without which it will not
+	be able to track any faces.
+
+	The FaceSearcherEngine and smFaceSearch() function
+	need at least a "level0" coefficient, corresponding
+	to a level-0 type face-search. For a level-1 face-search
+	both "level0" and "level1" coefficients are required.
+	
+* libiomp5md.dll
+
+	OpenMP. faceAPI uses Intel OpenMP technology. OpenMP
+	cannot be statically linked against as this would 
+	prevent faceAPI customers from using OpenMP in their
+	own code. Hence, this DLL must be installed alongside
+	smft40.dll.
+
+* Microsoft.VC90.CRT.manifest
+* msvcm90.dll
+* msvcp90.dll
+* msvcr90.dll
+
+	Microsoft Visual C++ 9 runtime libraries.
+	The manifest file is needed and is searched for from
+	smft40.dll. The microsoft runtime redistributable does not 
+	need to be	installed on the target machine, as 
+	smft40.dll is islolated. smft40.dll refers to these 
+  	files which must be in the same folder.
+
+
+------------------------------------------------------------
+OPTIONAL binary files:
+------------------------------------------------------------
+
+* cam_blacklist.txt
+
+	Text configuration file containing names of camera devices
+	that should always be ignored. These are usually cameras 
+	that have non-conforming or unusual drivers which do not
+	operate with faceAPI.
+	Recommended for applications that need to operate with
+	random WDM (webcam) cameras.
+
+* cam_whitelist.txt
+
+	Text configuration file containing names of camera devices
+	that skip the camera "test phase" on startup. This test phase
+	simply tries to initialize the camera - this initialization 
+	detected if another process is using the camera, or the 
+	camera driver is improperly installed, and if so, the camera
+	is not available to faceAPI. Sometimes this test-phase can
+	cause problems with cameras that have partially functional
+	drivers.
+	Recommended for applications that need to operate with
+	random WDM (webcam) cameras.
+
+* PGRFlyCapture.dll
+* msvcr80.dll
+* msvcp80.dll
+
+	Development License only.
+	DLL for controlling the PointGrey camera driver.
+	This is delay loaded and if missing you won't be able 
+	to use PointGrey cameras through their advanced driver.
+	PointGrey cameras may still be visible via any installed
+	WDM driver, but the WDM driver only offers limited 
+	control capabilites and is ignored by default in 
+	cam_blacklist.txt.
+	PGRFlyCapture.dll depends on the Visual C++ 8 runtime 
+	DLL files: msvcr80.dll and msvcp80.dll
+
+* pgrflycapturegui.dll
+* mfc80.dll
+
+	Development License only.
+	DLL for showing PointGrey driver GUI. It is unlikely that
+	you will want to provide end-users with the ability to 
+	adjust advanced properties of the camera driver at runtime, 
+	and if you exclude this DLL you can prevent this from
+	occuring. This DLL is mainly useful for development.
+	pgrflycapturegui.dll depends on PGRFlyCapture.dll and
+	mfc80.dll.
+
+* sm_ca_resource_facesearchv2_level0_ir_6.1.dll
+* sm_ca_resource_facesearchv2_level1_ir_6.1.dll
+
+	Development License only.
+
+	These are resource DLLs that contain coefficients 
+	for detecting faces under *infrared* conditions,
+	specifically where the camera is BELOW the
+	face, and should typically be used in conjunction
+	with the faceAPI IR Lighting kit.
+
+	The version number suffix of these DLLs may
+	change with subsequent releases of faceAPI.
+
+* Cal subfolder.
+
+	This contains precalibrated .lens files for common
+	webcam models. The list is by no means complete.
+	If you are building an application that requires 
+	compatibility with a large range of devices, it is
+	recommended that you increase this list of .lens files
+	for as many models of webcams as possible, and include
+	the subfolder in the same folder as smft40.dll.
+	If faceAPI does not find a suitable matching .lens file
+	it must guess the field-of-view of the camera and will
+	not be able to compensate for any lens distortion,
+	resulting in degraded performance.
+
+------------------------------------------------------------
+HeadTrackingDemo
+------------------------------------------------------------
+
+* HeadTrackingDemo.exe
+* glut32.dll
+
+	This demo is built using faceAPI and some internal library
+	code. It depends on glut32.dll and all the other DLLs in 
+	the folder except smft40.dll (it is statically linked).
+
+	glut32.dll is only need by HeadTrackingDemo and is not 
+	needed for any normal faceAPI deployment.
+  
+------------------------------------------------------------
+Thirdparty Dependencies
+------------------------------------------------------------
+
+The faceAPI DLL is isolated. It does not depend on any 
+additional DLLs to be installed on a clean Windows XP SP3, 
+Vista or Win7 system.
+
+The development license of faceAPI requires the HASP runtime
+to be installed. This is the dongle driver.

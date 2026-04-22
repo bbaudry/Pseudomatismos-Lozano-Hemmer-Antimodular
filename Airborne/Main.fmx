@@ -1,0 +1,54 @@
+object MainFrm: TMainFrm
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'Form6'
+  ClientHeight = 548
+  ClientWidth = 671
+  Transparency = False
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  StyleLookup = 'backgroundstyle'
+  object PaintBox1: TPaintBox
+    Position.Point = '(8,8)'
+    Width = 656.000000000000000000
+    Height = 494.000000000000000000
+  end
+  object CameraBtn: TButton
+    Position.Point = '(8,512)'
+    Width = 80.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 2
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Camera'
+    object Button1: TButton
+      Position.Point = '(96,0)'
+      Width = 80.000000000000000000
+      Height = 22.000000000000000000
+      TabOrder = 1
+      StaysPressed = False
+      IsPressed = False
+      Text = 'Tracking'
+    end
+  end
+  object Button2: TButton
+    Position.Point = '(200,512)'
+    Width = 80.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 3
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Projector'
+  end
+  object Button3: TButton
+    Position.Point = '(584,512)'
+    Width = 80.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 12
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Run'
+  end
+end

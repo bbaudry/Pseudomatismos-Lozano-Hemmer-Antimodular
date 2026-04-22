@@ -1,0 +1,32 @@
+I always work in a little bit of an after word into every podcast, but I've
+never before actually made some sort of point from a disagreement I had.
+Nigel may be right, that might have been a poor decision on my part.
+The values in config-key represent the options in the [DEFAULT] section.
+The keys below config-key represent other sections, and their values
+represent the options. Only values of type REG_SZ whose name doesn't
+start with a '#' will be used; other values, as well as the keys'
+default values, will be ignored.
+I always work in a little bit of an after word into every podcast, but I've
+never before actually made some sort of point from a disagreement I had.
+Nigel may be right, that might have been a poor decision on my part.
+The values in config-key represent the options in the [DEFAULT] section.
+The keys below config-key represent other sections, and their values
+represent the options. Only values of type REG_SZ whose name doesn't
+start with a '#' will be used; other values, as well as the keys'
+default values, will be ignored.
+I always work in a little bit of an after word into every podcast, but I've
+never before actually made some sort of point from a disagreement I had.
+Nigel may be right, that might have been a poor decision on my part.  
+The values in config-key represent the options in the [DEFAULT] section.
+The keys below config-key represent other sections, and their values
+represent the options. Only values of type REG_SZ whose name doesn't
+start with a '#' will be used; other values, as well as the keys'
+default values, will be ignored.
+I always work in a little bit of an after word into every podcast, but I've
+never before actually made some sort of point from a disagreement I had.
+Nigel may be right, that might have been a poor decision on my part.  
+The values in config-key represent the options in the [DEFAULT] section.
+The keys below config-key represent other sections, and their values
+represent the options. Only values of type REG_SZ whose name doesn't
+start with a '#' will be used; other values, as well as the keys'
+default values, will be ignored.
