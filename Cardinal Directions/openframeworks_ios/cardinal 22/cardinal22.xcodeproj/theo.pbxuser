@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* guiExample */ = {
+		activeExec = 0;
+		executables = (
+			E48D9ECF115CE0F100A7B771 /* guiExample */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E48D9ECF115CE0F100A7B771 /* guiExample */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* guiExample */;
+		codeSenseManager = E48D9EF3115CE11000A7B771 /* Code sense */;
+		executables = (
+			E48D9ECF115CE0F100A7B771 /* guiExample */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 291299569;
+			PBXWorkspaceStateSaveDate = 291299569;
+		};
+		sourceControlManager = E48D9EF2115CE11000A7B771 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E46CF0FC1156C8CF00D1BAA5 /* MyGuiView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 665}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 534}";
+		};
+	};
+	E46CF0FD1156C8CF00D1BAA5 /* MyGuiView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1050}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1253}";
+		};
+	};
+	E48D9ECF115CE0F100A7B771 /* guiExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = guiExample;
+		sourceDirectories = (
+		);
+	};
+	E48D9EF2115CE11000A7B771 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	E48D9EF3115CE11000A7B771 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E4D8933211527A44007E1F53 /* testApp.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1246}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1062}";
+		};
+	};
+}
